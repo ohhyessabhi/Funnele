@@ -88,12 +88,13 @@ header.nav{ position:sticky; top:0; z-index:100; background:rgba(255,255,255,0.9
 @media (max-width:860px){
   .mobile-toggle{ display:flex; }
   .nav-links{
+    display:none;
     position:fixed; top:69px; left:0; right:0; bottom:0; background:#fff; z-index:99;
     flex-direction:column; align-items:stretch; gap:0; padding:12px 20px 40px;
-    transform:translateY(-8px); opacity:0; visibility:hidden; transition:opacity .2s, transform .2s, visibility .2s;
+    transform:translateY(-8px); opacity:0; transition:opacity .2s, transform .2s;
     overflow-y:auto;
   }
-  .nav-links.open{ opacity:1; visibility:visible; transform:translateY(0); }
+  .nav-links.open{ display:flex; opacity:1; transform:translateY(0); }
   .nav-links > a{ padding:16px 4px; border-bottom:1px solid var(--border); }
   .nav-dropdown{ width:100%; }
   .nav-dropdown-label-row{ width:100%; justify-content:space-between; padding:16px 4px; border-bottom:1px solid var(--border); }
