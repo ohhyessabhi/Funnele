@@ -19,7 +19,11 @@
       <div class="card-grid" id="resource-grid">
         <% items.forEach(function(item) { %>
         <a href="/resources/<%= item.slug %>" class="res-card" data-type="<%= item.type %>">
+          <% if (item.cover) { %>
+          <div class="thumb thumb-img"><img src="<%= item.cover %>" alt="" loading="lazy"></div>
+          <% } else { %>
           <div class="thumb"><span><%= item.type === 'case-study' ? 'Case Study' : 'Blog' %></span></div>
+          <% } %>
           <div class="body">
             <span class="cat"><%= item.category %></span>
             <h3><%= item.title %></h3>

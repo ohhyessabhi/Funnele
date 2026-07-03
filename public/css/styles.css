@@ -198,6 +198,8 @@ section:last-of-type{ border-bottom:none; }
 .res-card:hover{ box-shadow:0 20px 40px -24px rgba(0,0,0,0.18); transform:translateY(-2px); }
 .res-card .thumb{ height:150px; background:linear-gradient(135deg, var(--red-tint), var(--red-tint-2)); display:flex; align-items:center; justify-content:center; }
 .res-card .thumb span{ font-family:var(--font-mono); font-size:0.7rem; color:var(--red-dark); text-transform:uppercase; letter-spacing:0.08em; }
+.res-card .thumb.thumb-img{ padding:0; }
+.res-card .thumb.thumb-img img{ width:100%; height:100%; object-fit:cover; display:block; }
 .res-card .body{ padding:22px; }
 .res-card .cat{ font-family:var(--font-mono); font-size:0.68rem; text-transform:uppercase; letter-spacing:0.08em; color:var(--red); }
 .res-card h3{ font-size:1.05rem; margin:10px 0 8px; }
