@@ -10,6 +10,7 @@ const contactRoutes = require('./routes/contact');
 const logoDataUri = require('./lib/logo-data');
 
 const app = express();
+const assetVersion = Date.now();
 
 // ---- View engine ----
 app.set('view engine', 'ejs');
@@ -24,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use((req, res, next) => {
   res.locals.currentPath = req.path;
   res.locals.logoDataUri = logoDataUri;
+  res.locals.assetVersion = assetVersion;
   next();
 });
 
