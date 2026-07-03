@@ -1,0 +1,56 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="620" fill="#FFFFFF"/>
+
+  <text x="60" y="56" font-family="Consolas, Menlo, monospace" font-size="16" letter-spacing="2" fill="#E43525">THE STRATEGY</text>
+  <text x="60" y="98" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#171717">Five workstreams, run in parallel</text>
+
+  <!-- Card 1: Keyword Research -->
+  <rect x="60" y="140" width="344" height="200" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <rect x="88" y="168" width="48" height="48" rx="10" fill="#FDECEA"/>
+  <circle cx="106" cy="186" r="9" fill="none" stroke="#E43525" stroke-width="2.5"/>
+  <line x1="113" y1="193" x2="120" y2="200" stroke="#E43525" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="88" y="246" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#171717">Keyword Research</text>
+  <text x="88" y="272" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#5B5B5B">High-intent terms across truck</text>
+  <text x="88" y="292" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#5B5B5B">wash, detailing, and chemicals</text>
+
+  <!-- Card 2: On-Page Optimization -->
+  <rect x="428" y="140" width="344" height="200" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <rect x="456" y="168" width="48" height="48" rx="10" fill="#FDECEA"/>
+  <rect x="472" y="182" width="16" height="20" rx="2" fill="none" stroke="#E43525" stroke-width="2.2"/>
+  <line x1="475" y1="188" x2="485" y2="188" stroke="#E43525" stroke-width="1.6"/>
+  <line x1="475" y1="193" x2="485" y2="193" stroke="#E43525" stroke-width="1.6"/>
+  <line x1="475" y1="198" x2="482" y2="198" stroke="#E43525" stroke-width="1.6"/>
+  <text x="456" y="246" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#171717">On-Page Optimization</text>
+  <text x="456" y="272" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#5B5B5B">Metadata, copy, and internal</text>
+  <text x="456" y="292" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#5B5B5B">linking rebuilt for relevance</text>
+
+  <!-- Card 3: Technical SEO -->
+  <rect x="796" y="140" width="344" height="200" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <rect x="824" y="168" width="48" height="48" rx="10" fill="#FDECEA"/>
+  <circle cx="848" cy="192" r="10" fill="none" stroke="#E43525" stroke-width="2.2"/>
+  <circle cx="848" cy="192" r="3.5" fill="none" stroke="#E43525" stroke-width="2"/>
+  <line x1="848" y1="179" x2="848" y2="174" stroke="#E43525" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="848" y1="205" x2="848" y2="210" stroke="#E43525" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="861" y1="192" x2="866" y2="192" stroke="#E43525" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="830" y1="192" x2="835" y2="192" stroke="#E43525" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="824" y="246" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#171717">Technical SEO</text>
+  <text x="824" y="272" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#5B5B5B">Site speed, broken links, and</text>
+  <text x="824" y="292" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#5B5B5B">schema fixed sitewide</text>
+
+  <!-- Card 4: Content Strategy (centered row 2, left) -->
+  <rect x="244" y="364" width="344" height="200" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <rect x="272" y="392" width="48" height="48" rx="10" fill="#FDECEA"/>
+  <path d="M282 428 L286 414 L304 396 L310 402 L292 420 L278 424 Z" fill="none" stroke="#E43525" stroke-width="2.2" stroke-linejoin="round"/>
+  <text x="272" y="470" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#171717">Content Strategy</text>
+  <text x="272" y="496" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#5B5B5B">New landing pages and guides for</text>
+  <text x="272" y="516" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#5B5B5B">boat, RV, and truck cleaning</text>
+
+  <!-- Card 5: Link Building (centered row 2, right) -->
+  <rect x="612" y="364" width="344" height="200" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <rect x="640" y="392" width="48" height="48" rx="10" fill="#FDECEA"/>
+  <rect x="643" y="407" width="20" height="13" rx="6.5" fill="none" stroke="#E43525" stroke-width="2.2"/>
+  <rect x="657" y="407" width="20" height="13" rx="6.5" fill="none" stroke="#E43525" stroke-width="2.2"/>
+  <text x="640" y="470" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#171717">Link Building</text>
+  <text x="640" y="496" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#5B5B5B">Citations, guest posts, and</text>
+  <text x="640" y="516" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#5B5B5B">industry outreach</text>
+</svg>

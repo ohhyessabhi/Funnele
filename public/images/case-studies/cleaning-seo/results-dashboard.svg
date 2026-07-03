@@ -1,0 +1,84 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="#FFFFFF"/>
+
+  <text x="60" y="56" font-family="Consolas, Menlo, monospace" font-size="16" letter-spacing="2" fill="#E43525">RESULTS — SIX MONTH IMPACT</text>
+  <text x="60" y="98" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#171717">The turnaround, by the numbers</text>
+
+  <!-- Panel A: Organic Traffic -->
+  <rect x="60" y="140" width="344" height="230" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <text x="84" y="174" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#171717">Organic Traffic</text>
+  <rect x="294" y="152" width="86" height="26" rx="13" fill="#FDECEA"/>
+  <text x="337" y="169" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#E43525" text-anchor="middle">+250%</text>
+  <line x1="84" y1="330" x2="380" y2="330" stroke="#EAEAEA"/>
+  <rect x="150" y="292.9" width="60" height="37.1" fill="#D8D8D8" rx="3"/>
+  <text x="180" y="284.9" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5B5B5B" text-anchor="middle">2,000</text>
+  <rect x="260" y="200" width="60" height="130" fill="#E43525" rx="3"/>
+  <text x="290" y="192" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171717" text-anchor="middle">7,000+</text>
+  <text x="180" y="350" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">BEFORE</text>
+  <text x="290" y="350" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">AFTER</text>
+
+  <!-- Panel B: Organic Revenue -->
+  <rect x="428" y="140" width="344" height="230" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <text x="452" y="174" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#171717">Organic Revenue</text>
+  <rect x="662" y="152" width="86" height="26" rx="13" fill="#FDECEA"/>
+  <text x="705" y="169" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#E43525" text-anchor="middle">+400%</text>
+  <line x1="452" y1="330" x2="748" y2="330" stroke="#EAEAEA"/>
+  <rect x="518" y="306.6" width="60" height="23.4" fill="#D8D8D8" rx="3"/>
+  <text x="548" y="298.6" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5B5B5B" text-anchor="middle">$4.5K</text>
+  <rect x="628" y="200" width="60" height="130" fill="#E43525" rx="3"/>
+  <text x="658" y="192" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171717" text-anchor="middle">$25K+</text>
+  <text x="548" y="350" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">BEFORE</text>
+  <text x="658" y="350" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">AFTER</text>
+
+  <!-- Panel C: Referring Domains -->
+  <rect x="796" y="140" width="344" height="230" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <text x="820" y="174" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#171717">Referring Domains</text>
+  <rect x="1030" y="152" width="86" height="26" rx="13" fill="#FDECEA"/>
+  <text x="1073" y="169" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#E43525" text-anchor="middle">+40%</text>
+  <line x1="820" y1="330" x2="1116" y2="330" stroke="#EAEAEA"/>
+  <rect x="886" y="237.4" width="60" height="92.6" fill="#D8D8D8" rx="3"/>
+  <text x="916" y="229.4" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5B5B5B" text-anchor="middle">57</text>
+  <rect x="996" y="200" width="60" height="130" fill="#E43525" rx="3"/>
+  <text x="1026" y="192" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171717" text-anchor="middle">80+</text>
+  <text x="916" y="350" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">BEFORE</text>
+  <text x="1026" y="350" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">AFTER</text>
+
+  <!-- Panel D: Domain Rating -->
+  <rect x="60" y="394" width="344" height="230" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <text x="84" y="428" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#171717">Domain Rating</text>
+  <rect x="294" y="406" width="86" height="26" rx="13" fill="#FDECEA"/>
+  <text x="337" y="423" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#E43525" text-anchor="middle">+5 pts</text>
+  <line x1="84" y1="584" x2="380" y2="584" stroke="#EAEAEA"/>
+  <rect x="150" y="546.9" width="60" height="37.1" fill="#D8D8D8" rx="3"/>
+  <text x="180" y="538.9" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5B5B5B" text-anchor="middle">2</text>
+  <rect x="260" y="454" width="60" height="130" fill="#E43525" rx="3"/>
+  <text x="290" y="446" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171717" text-anchor="middle">7</text>
+  <text x="180" y="604" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">BEFORE</text>
+  <text x="290" y="604" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">AFTER</text>
+
+  <!-- Panel E: Top-10 Rankings -->
+  <rect x="428" y="394" width="344" height="230" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <text x="452" y="428" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#171717">Top-10 Rankings</text>
+  <rect x="662" y="406" width="86" height="26" rx="13" fill="#FDECEA"/>
+  <text x="705" y="423" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#E43525" text-anchor="middle">+500%</text>
+  <line x1="452" y1="584" x2="748" y2="584" stroke="#EAEAEA"/>
+  <rect x="518" y="562.3" width="60" height="21.7" fill="#D8D8D8" rx="3"/>
+  <text x="548" y="554.3" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5B5B5B" text-anchor="middle">1</text>
+  <rect x="628" y="454" width="60" height="130" fill="#E43525" rx="3"/>
+  <text x="658" y="446" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171717" text-anchor="middle">6</text>
+  <text x="548" y="604" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">BEFORE</text>
+  <text x="658" y="604" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">AFTER</text>
+
+  <!-- Panel F: Total Keywords in SERP -->
+  <rect x="796" y="394" width="344" height="230" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <text x="820" y="428" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#171717">Total Keywords in SERP</text>
+  <rect x="1030" y="406" width="86" height="26" rx="13" fill="#FDECEA"/>
+  <text x="1073" y="423" font-family="Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#E43525" text-anchor="middle">+216%</text>
+  <line x1="820" y1="584" x2="1116" y2="584" stroke="#EAEAEA"/>
+  <rect x="886" y="542.9" width="60" height="41.1" fill="#D8D8D8" rx="3"/>
+  <text x="916" y="534.9" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5B5B5B" text-anchor="middle">6</text>
+  <rect x="996" y="454" width="60" height="130" fill="#E43525" rx="3"/>
+  <text x="1026" y="446" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#171717" text-anchor="middle">19</text>
+  <text x="916" y="604" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">BEFORE</text>
+  <text x="1026" y="604" font-family="Consolas, Menlo, monospace" font-size="11" fill="#8A8A8A" text-anchor="middle">AFTER</text>
+</svg>
