@@ -1,0 +1,26 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main id="top">
+  <section class="article-hero">
+    <div class="wrap">
+      <p class="breadcrumb"><a href="/resources/<%= item.type === 'case-study' ? 'case-studies' : 'blog' %>"><%= item.type === 'case-study' ? 'Case Studies' : 'Blog' %></a></p>
+      <p class="eyebrow"><%= item.category %></p>
+      <h1 style="font-size:clamp(1.9rem,3.6vw,2.8rem); margin-top:16px;"><%= item.title %></h1>
+      <div class="article-meta-row">
+        <span><%= item.type === 'case-study' ? 'Case Study' : 'Blog' %></span>
+        <% if (item.date) { %><span><%= new Date(item.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) %></span><% } %>
+      </div>
+    </div>
+  </section>
+
+  <div class="article-body">
+    <%- item.html %>
+    <div class="btn-row" style="margin-top:40px;">
+      <a href="/contact" class="btn btn-primary">Start a Partnership →</a>
+      <a href="/resources/<%= item.type === 'case-study' ? 'case-studies' : 'blog' %>" class="btn btn-secondary">Back to <%= item.type === 'case-study' ? 'Case Studies' : 'Blog' %></a>
+    </div>
+  </div>
+</main>
+
+<%- include('partials/footer') %>

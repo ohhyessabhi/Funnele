@@ -1,0 +1,16 @@
+<%
+/* Expects locals: faqs (array of {q, a}), idPrefix (string, unique per page) */
+%>
+<div class="faq-list">
+  <% faqs.forEach(function(item, i) { %>
+  <div class="faq-item reveal">
+    <button class="faq-question" aria-expanded="false" aria-controls="<%= idPrefix %>-a-<%= i %>">
+      <span><%= item.q %></span>
+      <svg class="icon icon-sm"><use href="#icon-plus"/></svg>
+    </button>
+    <div class="faq-answer" id="<%= idPrefix %>-a-<%= i %>">
+      <p><%= item.a %></p>
+    </div>
+  </div>
+  <% }) %>
+</div>

@@ -1,0 +1,40 @@
+<%
+/* Expects locals: metrics (array of {label, value 0-100}), slug (string for the fake URL) */
+%>
+<div class="dashboard-mock reveal">
+  <div class="dm-chrome">
+    <div class="dm-dots"><span></span><span></span><span></span></div>
+    <div class="dm-url">reports.youragency.com/<%= slug %></div>
+  </div>
+  <div class="dm-body">
+    <div class="dm-sidebar">
+      <div class="dm-side-item active"></div>
+      <div class="dm-side-item"></div>
+      <div class="dm-side-item"></div>
+      <div class="dm-side-item"></div>
+      <div class="dm-side-item"></div>
+    </div>
+    <div class="dm-main">
+      <div class="dm-stats">
+        <% metrics.forEach(function(m){ %>
+        <div class="dm-stat">
+          <span class="dm-stat-label"><%= m.label %></span>
+          <div class="dm-stat-bar-track"><div class="dm-stat-bar-fill" style="width:<%= m.value %>%"></div></div>
+        </div>
+        <% }) %>
+      </div>
+      <div class="dm-chart">
+        <svg viewBox="0 0 300 90" preserveAspectRatio="none">
+          <polyline class="dm-chart-line" points="0,75 40,58 80,64 120,38 160,46 200,22 240,32 300,12" fill="none"/>
+          <polyline class="dm-chart-fill" points="0,75 40,58 80,64 120,38 160,46 200,22 240,32 300,12 300,90 0,90" />
+        </svg>
+      </div>
+      <div class="dm-table">
+        <div class="dm-row"><span></span><span></span><span></span></div>
+        <div class="dm-row"><span></span><span></span><span></span></div>
+        <div class="dm-row"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </div>
+  <p class="dm-caption">Illustrative sample layout — your branding, not client data.</p>
+</div>

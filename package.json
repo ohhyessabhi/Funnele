@@ -1,0 +1,22 @@
+{
+  "name": "funnele-site",
+  "version": "1.0.0",
+  "description": "Funnele — white-label growth execution agency site (Express + EJS)",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0",
+    "nodemailer": "^6.9.14"
+  }
+}

@@ -1,0 +1,83 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main id="top">
+
+  <section class="hero" style="padding:70px 0 60px;">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Contact</p>
+      <h1 style="font-size:clamp(2.1rem,4vw,3.2rem);">Tell us what's stretching your team thin.</h1>
+      <p class="lead">Fill in a few details and we'll respond within one business day to schedule a discovery call.</p>
+    </div>
+  </section>
+
+  <section style="border-bottom:none;">
+    <div class="wrap contact-layout">
+
+      <div class="info-card reveal">
+        <div class="icon-badge"><svg class="icon"><use href="#icon-mail"/></svg></div>
+        <h3>Prefer email?</h3>
+        <p>To contact us, please email us at <a href="mailto:abhijeet@funnele.com">abhijeet@funnele.com</a>.</p>
+      </div>
+
+      <% if (submitted) { %>
+        <div class="reveal is-visible thank-you-card">
+          <div class="icon-badge"><svg class="icon icon-lg"><use href="#icon-check"/></svg></div>
+          <h2>Thanks — your inquiry is in.</h2>
+          <p>We'll respond within 1 business day to schedule a discovery call. In the meantime, feel free to look through our <a href="/services">services</a>, <a href="/resources/blog">blog</a>, or <a href="/resources/case-studies">case studies</a>.</p>
+        </div>
+      <% } else { %>
+        <form class="contact-form reveal" action="/contact" method="POST">
+          <% if (error) { %><p class="form-error"><%= error %></p><% } %>
+          <!-- Honeypot field — hidden from real users via CSS, bots often fill it in -->
+          <div class="hp-field"><label for="company">Company</label><input type="text" id="company" name="company" tabindex="-1" autocomplete="off"></div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="agency">Agency name</label>
+              <input type="text" id="agency" name="agency" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="email">Work email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="website">Agency website</label>
+              <input type="url" id="website" name="website" placeholder="https://">
+            </div>
+          </div>
+          <div class="field">
+            <label for="channel">Which channel do you want to offload?</label>
+            <select id="channel" name="channel">
+              <option>Meta Ads</option>
+              <option>Google Ads</option>
+              <option>SEO</option>
+              <option>Web Development</option>
+              <option>Multiple channels</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="clients">Approx. number of active clients</label>
+            <input type="text" id="clients" name="clients" placeholder="e.g. 5–10">
+          </div>
+          <div class="field">
+            <label for="message">Tell us about your current setup</label>
+            <textarea id="message" name="message" placeholder="What's stretching your team? What have you tried so far?"></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Inquiry →</button>
+          <p class="form-note">We'll respond within 1 business day. No spam, no shared lists.</p>
+        </form>
+      <% } %>
+
+    </div>
+  </section>
+
+</main>
+
+<%- include('partials/footer') %>

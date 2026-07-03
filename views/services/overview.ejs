@@ -1,0 +1,65 @@
+<%- include('../partials/head') %>
+<%- include('../partials/nav') %>
+
+<main id="top">
+
+  <section class="hero" style="padding:70px 0 60px;">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Services</p>
+      <h1 style="font-size:clamp(2.1rem,4vw,3.2rem);">Four disciplines. One point of contact. Zero branding.</h1>
+      <p class="lead">Every service below is delivered under your agency's name. Reports, dashboards, and invoices carry your brand — never ours.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">What we execute</p>
+        <h2>Pick a channel. We'll run point on it.</h2>
+        <p>Each discipline below has its own dedicated scope, deliverables and white-label rationale.</p>
+      </div>
+      <div class="cap-grid">
+        <% services.forEach(function(service) { %>
+        <a href="/services/<%= service.slug %>" class="cap-card reveal">
+          <span class="num"><%= service.num %></span>
+          <div class="icon-badge"><svg class="icon"><use href="#<%= service.icon %>"/></svg></div>
+          <h3><%= service.name %></h3>
+          <p><%= service.summary %></p>
+          <div class="deliverables">
+            <% service.tags.forEach(function(tag) { %><span><%= tag %></span><% }) %>
+          </div>
+        </a>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">How partnering works</p>
+        <h2>Five steps from first call to live account.</h2>
+        <p>No lock-in contracts, no minimum client count. You bring the account, we bring the execution.</p>
+      </div>
+      <div class="process-list">
+        <% process.forEach(function(step) { %>
+        <div class="process-item reveal">
+          <span class="step-num"><%= step.num %></span>
+          <div><h3><%= step.title %></h3><p><%= step.desc %></p></div>
+        </div>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band" style="border-bottom:none;">
+    <div class="wrap">
+      <h2>Ready to see if it's a fit?</h2>
+      <p>One call to walk through your accounts and confirm scope before anything is signed.</p>
+      <div class="btn-row"><a href="/contact" class="btn btn-primary">Start a Partnership →</a></div>
+    </div>
+  </section>
+
+</main>
+
+<%- include('../partials/footer') %>

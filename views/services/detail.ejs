@@ -1,0 +1,107 @@
+<%- include('../partials/head') %>
+<%- include('../partials/nav') %>
+
+<main id="top">
+
+  <section class="hero" style="padding:70px 0 60px;">
+    <div class="wrap hero-inner">
+      <p class="eyebrow"><%= service.num %> / <%= service.name %></p>
+      <h1 style="font-size:clamp(2.1rem,4vw,3.2rem);"><%= service.tagline %></h1>
+      <p class="lead"><%= service.positioning %></p>
+      <div class="btn-row">
+        <a href="/contact" class="btn btn-primary">Start a Partnership →</a>
+        <a href="/services" class="btn btn-secondary">All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Scope</p>
+        <h2><%= service.summary %></h2>
+      </div>
+      <div class="cap-grid" style="margin-bottom:0;">
+        <% service.deliverables.forEach(function(d) { %>
+        <div class="cap-card reveal"><span class="num">Scope</span><h3><%= d.title %></h3><p><%= d.desc %></p></div>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <section id="why">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Why partner on this channel</p>
+        <h2><%= service.whyTitle %></h2>
+      </div>
+      <div class="why-grid">
+        <% service.whyPoints.forEach(function(w) { %>
+        <div class="why-card reveal">
+          <h3><%= w.title %></h3>
+          <p><%= w.desc %></p>
+        </div>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+
+  <% if (service.buildProcess) { %>
+  <section id="build-process">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">How we build it</p>
+        <h2>From scope to launch, step by step.</h2>
+        <p>Every build follows the same process, so you and your client always know what stage a project is at.</p>
+      </div>
+      <div class="process-list">
+        <% service.buildProcess.forEach(function(step) { %>
+        <div class="process-item reveal">
+          <span class="step-num"><%= step.num %></span>
+          <div><h3><%= step.title %></h3><p><%= step.desc %></p></div>
+        </div>
+        <% }) %>
+      </div>
+    </div>
+  </section>
+  <% } else { %>
+  <section id="reporting">
+    <div class="wrap">
+      <div class="reporting-layout">
+        <div class="section-head reveal" style="margin-bottom:0;">
+          <p class="eyebrow">What your client sees</p>
+          <h2><%= service.name %> reporting, under your brand.</h2>
+          <p>Dashboards and reports formatted with your logo and domain — never a Funnele-labeled export forwarded along.</p>
+          <ul class="reporting-points">
+            <li><svg class="icon icon-sm"><use href="#icon-check"/></svg>Your logo, your domain, your color scheme</li>
+            <li><svg class="icon icon-sm"><use href="#icon-check"/></svg>Delivered on a fixed reporting cadence</li>
+            <li><svg class="icon icon-sm"><use href="#icon-check"/></svg>You review before anything reaches your client</li>
+          </ul>
+        </div>
+        <%- include('../partials/dashboard-mock', { metrics: service.metrics, slug: service.slug }) %>
+      </div>
+    </div>
+  </section>
+  <% } %>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Common questions</p>
+        <h2>Before you hand off <%= service.name %>.</h2>
+      </div>
+      <%- include('../partials/faq', { faqs: service.faqs, idPrefix: service.slug }) %>
+    </div>
+  </section>
+
+  <section class="cta-band" style="border-bottom:none;">
+    <div class="wrap">
+      <h2>Ready to hand off <%= service.name %>?</h2>
+      <p>One call to walk through the account and confirm scope before anything is signed.</p>
+      <div class="btn-row"><a href="/contact" class="btn btn-primary">Start a Partnership →</a></div>
+    </div>
+  </section>
+
+</main>
+
+<%- include('../partials/footer') %>

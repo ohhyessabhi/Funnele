@@ -1,0 +1,41 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main id="top">
+
+  <section class="hero" style="padding:70px 0 50px;">
+    <div class="wrap hero-inner">
+      <p class="eyebrow"><%= pageType === 'case-study' ? 'Case Studies' : 'Blog' %></p>
+      <h1 style="font-size:clamp(2.1rem,4vw,3.2rem);"><%= heading %></h1>
+      <p class="lead"><%= subhead %></p>
+    </div>
+  </section>
+
+  <section style="border-bottom:none;">
+    <div class="wrap">
+      <% if (items.length === 0) { %>
+        <p style="color:var(--ink-muted);">No <%= pageType === 'case-study' ? 'case studies' : 'blog posts' %> published yet — drop .md files into /content/<%= pageType === 'case-study' ? 'case-studies' : 'blog' %>.</p>
+      <% } else { %>
+      <div class="card-grid" id="resource-grid">
+        <% items.forEach(function(item) { %>
+        <a href="/resources/<%= item.slug %>" class="res-card" data-type="<%= item.type %>">
+          <div class="thumb"><span><%= item.type === 'case-study' ? 'Case Study' : 'Blog' %></span></div>
+          <div class="body">
+            <span class="cat"><%= item.category %></span>
+            <h3><%= item.title %></h3>
+            <p><%= item.excerpt %></p>
+            <div class="meta">
+              <span><%= item.type === 'case-study' ? 'Case Study' : 'Blog' %></span>
+              <span><%= item.date ? new Date(item.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : '' %></span>
+            </div>
+          </div>
+        </a>
+        <% }) %>
+      </div>
+      <% } %>
+    </div>
+  </section>
+
+</main>
+
+<%- include('partials/footer') %>

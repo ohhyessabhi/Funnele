@@ -1,0 +1,45 @@
+<header class="nav">
+  <div class="nav-inner">
+    <a href="/" class="logo"><img src="<%= logoDataUri %>" alt="Funnele" width="130" height="22"></a>
+
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg class="icon"><use href="#icon-menu"/></svg>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="/" class="<%= currentPath === '/' ? 'active' : '' %>">Home</a>
+
+      <div class="nav-dropdown">
+        <div class="nav-dropdown-label-row <%= currentPath.startsWith('/services') ? 'active' : '' %>">
+          <a href="/services" class="nav-dropdown-link">Services</a>
+          <button class="nav-dropdown-caret" aria-expanded="false" aria-label="Toggle services menu">
+            <svg class="icon icon-sm"><use href="#icon-chevron"/></svg>
+          </button>
+        </div>
+        <div class="nav-dropdown-menu">
+          <a href="/services/meta-ads">Meta Ads</a>
+          <a href="/services/google-ads">Google Ads</a>
+          <a href="/services/seo">SEO</a>
+          <a href="/services/web-development">Web Development</a>
+        </div>
+      </div>
+
+      <div class="nav-dropdown">
+        <div class="nav-dropdown-label-row <%= currentPath.startsWith('/resources') ? 'active' : '' %>">
+          <a href="/resources/blog" class="nav-dropdown-link">Resources</a>
+          <button class="nav-dropdown-caret" aria-expanded="false" aria-label="Toggle resources menu">
+            <svg class="icon icon-sm"><use href="#icon-chevron"/></svg>
+          </button>
+        </div>
+        <div class="nav-dropdown-menu">
+          <a href="/resources/blog">Blog</a>
+          <a href="/resources/case-studies">Case Studies</a>
+        </div>
+      </div>
+
+      <a href="/contact" class="<%= currentPath.startsWith('/contact') ? 'active' : '' %>">Contact</a>
+    </nav>
+
+    <a href="/contact" class="nav-cta">Start a Partnership →</a>
+  </div>
+</header>
