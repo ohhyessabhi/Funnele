@@ -1,0 +1,50 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="620" fill="#FFFFFF"/>
+
+  <text x="60" y="56" font-family="Consolas, Menlo, monospace" font-size="16" letter-spacing="2" fill="#E43525">KEY DIFFERENCES</text>
+  <text x="60" y="98" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#171717">Traditional search vs. generative engines</text>
+
+  <rect x="60" y="140" width="520" height="440" rx="10" fill="#FAFAFA" stroke="#EAEAEA" stroke-width="2"/>
+  <text x="90" y="188" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#5B5B5B">Traditional Search</text>
+  <line x1="90" y1="206" x2="550" y2="206" stroke="#EAEAEA"/>
+
+  <circle cx="105" cy="246" r="5" fill="#8A8A8A"/>
+  <text x="126" y="252" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#171717">Matches keywords in a query</text>
+
+  <circle cx="105" cy="296" r="5" fill="#8A8A8A"/>
+  <text x="126" y="302" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#171717">Ranks pages by links &amp; authority</text>
+
+  <circle cx="105" cy="346" r="5" fill="#8A8A8A"/>
+  <text x="126" y="352" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#171717">Returns a static list of links</text>
+
+  <circle cx="105" cy="396" r="5" fill="#8A8A8A"/>
+  <text x="126" y="402" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#171717">Depends on click-through</text>
+
+  <circle cx="105" cy="446" r="5" fill="#8A8A8A"/>
+  <text x="126" y="452" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#171717">Success = position on page one</text>
+
+  <rect x="90" y="500" width="460" height="56" rx="6" fill="#FFFFFF" stroke="#EAEAEA"/>
+  <text x="320" y="533" font-family="Consolas, Menlo, monospace" font-size="14" fill="#8A8A8A" text-anchor="middle">10 BLUE LINKS</text>
+
+  <rect x="620" y="140" width="520" height="440" rx="10" fill="#FDECEA" stroke="#E43525" stroke-width="2"/>
+  <text x="650" y="188" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#171717">Generative Engines</text>
+  <line x1="650" y1="206" x2="1110" y2="206" stroke="#F0C7C1"/>
+
+  <path d="M645 240 L649 246 L657 234" stroke="#E43525" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="676" y="252" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#171717">Understands intent &amp; context</text>
+
+  <path d="M645 290 L649 296 L657 284" stroke="#E43525" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="676" y="302" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#171717">Evaluates authority &amp; credibility</text>
+
+  <path d="M645 340 L649 346 L657 334" stroke="#E43525" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="676" y="352" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#171717">Synthesizes one direct answer</text>
+
+  <path d="M645 390 L649 396 L657 384" stroke="#E43525" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="676" y="402" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#171717">Depends on being cited</text>
+
+  <path d="M645 440 L649 446 L657 434" stroke="#E43525" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="676" y="452" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" fill="#171717">Success = the trusted citation</text>
+
+  <rect x="650" y="500" width="460" height="56" rx="6" fill="#FFFFFF" stroke="#E43525" stroke-width="2"/>
+  <text x="880" y="533" font-family="Consolas, Menlo, monospace" font-size="14" fill="#E43525" text-anchor="middle">ONE SYNTHESIZED ANSWER</text>
+</svg>

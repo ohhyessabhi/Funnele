@@ -1,0 +1,55 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+
+  <text x="60" y="66" font-family="Consolas, Menlo, monospace" font-size="17" letter-spacing="2" fill="#E43525">GENERATIVE ENGINE OPTIMIZATION</text>
+  <text x="60" y="118" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#171717">From ranking pages to</text>
+  <text x="60" y="160" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#171717">being the answer.</text>
+
+  <line x1="600" y1="210" x2="600" y2="580" stroke="#EAEAEA" stroke-width="2" stroke-dasharray="6,8"/>
+
+  <text x="80" y="232" font-family="Consolas, Menlo, monospace" font-size="15" letter-spacing="1.5" fill="#5B5B5B">TRADITIONAL SEO</text>
+
+  <rect x="80" y="256" width="420" height="46" rx="6" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <circle cx="105" cy="279" r="15" fill="#171717"/>
+  <text x="105" y="284" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="132" y="285" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#171717">Result ranked by keyword match</text>
+
+  <rect x="80" y="312" width="420" height="46" rx="6" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <circle cx="105" cy="335" r="15" fill="#171717"/>
+  <text x="105" y="340" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="132" y="341" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#171717">Result ranked by backlinks</text>
+
+  <rect x="80" y="368" width="420" height="46" rx="6" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <circle cx="105" cy="391" r="15" fill="#171717"/>
+  <text x="105" y="396" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="132" y="397" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#171717">Result ranked by page authority</text>
+
+  <text x="80" y="460" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#5B5B5B">Success = position on page one.</text>
+
+  <path d="M600 335 L644 335 M628 319 L646 335 L628 351" stroke="#E43525" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="580" y="380" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="1.5" fill="#E43525" text-anchor="middle">2026 SHIFT</text>
+
+  <text x="700" y="232" font-family="Consolas, Menlo, monospace" font-size="15" letter-spacing="1.5" fill="#E43525">GENERATIVE ENGINE</text>
+
+  <circle cx="700" cy="270" r="9" fill="#FAFAFA" stroke="#EAEAEA" stroke-width="2"/>
+  <circle cx="700" cy="340" r="9" fill="#FAFAFA" stroke="#EAEAEA" stroke-width="2"/>
+  <circle cx="700" cy="410" r="9" fill="#FAFAFA" stroke="#EAEAEA" stroke-width="2"/>
+  <line x1="709" y1="270" x2="765" y2="325" stroke="#EAEAEA" stroke-width="2"/>
+  <line x1="709" y1="340" x2="765" y2="340" stroke="#EAEAEA" stroke-width="2"/>
+  <line x1="709" y1="410" x2="765" y2="355" stroke="#EAEAEA" stroke-width="2"/>
+
+  <circle cx="790" cy="340" r="34" fill="#E43525"/>
+  <text x="790" y="347" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">AI</text>
+
+  <path d="M828 340 L900 340 M888 326 L904 340 L888 354" stroke="#171717" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="910" y="303" width="230" height="74" rx="8" fill="#FDECEA" stroke="#E43525" stroke-width="2"/>
+  <path d="M930 340 L940 350 L960 326" stroke="#E43525" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="975" y="336" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171717">Cited as the</text>
+  <text x="975" y="358" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#171717">trusted source</text>
+
+  <text x="700" y="460" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#5B5B5B">Success = being the citation.</text>
+
+  <line x1="60" y1="590" x2="1140" y2="590" stroke="#EAEAEA" stroke-width="1"/>
+  <text x="60" y="614" font-family="Consolas, Menlo, monospace" font-size="13" fill="#8A8A8A">FUNNELE — WHITE-LABEL SEO &amp; GEO EXECUTION</text>
+</svg>

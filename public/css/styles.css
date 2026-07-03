@@ -292,7 +292,11 @@ footer.site-footer{ background:var(--ink); color:#D8D8D8; padding:64px 0 0; }
 .article-body{ max-width:720px; margin:0 auto; padding:60px 32px; }
 .article-body h2{ font-size:1.5rem; margin:40px 0 16px; }
 .article-body h2:first-child{ margin-top:0; }
+.article-body h3{ font-size:1.18rem; margin:32px 0 12px; }
 .article-body p{ color:var(--ink-muted); margin-bottom:18px; font-size:1.02rem; }
+.article-body img{ width:100%; height:auto; border-radius:8px; border:1px solid var(--border); display:block; margin:36px 0 4px; }
+.article-body p:has(> em:only-child){ font-family:var(--font-mono); font-size:0.82rem; color:var(--ink-dim); margin:0 0 32px; text-align:center; }
+.article-body p:has(> em:only-child) em{ font-style:normal; }
 .article-body ul, .article-body ol{ margin:0 0 20px 0; }
 .article-body ul li{ color:var(--ink-muted); padding:8px 0 8px 22px; position:relative; }
 .article-body ul li::before{ content:''; position:absolute; left:0; top:16px; width:8px; height:2px; background:var(--red); }

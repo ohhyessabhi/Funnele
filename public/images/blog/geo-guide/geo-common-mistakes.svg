@@ -1,0 +1,41 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#FFFFFF"/>
+
+  <text x="60" y="56" font-family="Consolas, Menlo, monospace" font-size="16" letter-spacing="2" fill="#E43525">COMMON GEO MISTAKES</text>
+  <text x="60" y="98" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#171717">What holds brands back</text>
+
+  <rect x="60" y="140" width="1080" height="100" rx="8" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="2"/>
+  <rect x="60" y="140" width="6" height="100" fill="#E43525"/>
+  <circle cx="112" cy="190" r="20" fill="#FDECEA" stroke="#E43525" stroke-width="2"/>
+  <path d="M104 182 L120 198 M120 182 L104 198" stroke="#E43525" stroke-width="3" stroke-linecap="round"/>
+  <text x="150" y="180" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#171717">Keyword stuffing without context</text>
+  <text x="150" y="206" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Repeating phrases doesn't build trust with AI systems</text>
+
+  <rect x="60" y="252" width="1080" height="100" rx="8" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="2"/>
+  <rect x="60" y="252" width="6" height="100" fill="#E43525"/>
+  <circle cx="112" cy="302" r="20" fill="#FDECEA" stroke="#E43525" stroke-width="2"/>
+  <path d="M104 294 L120 310 M120 294 L104 310" stroke="#E43525" stroke-width="3" stroke-linecap="round"/>
+  <text x="150" y="292" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#171717">Ignoring authority signals</text>
+  <text x="150" y="318" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Expertise and credibility matter more than volume</text>
+
+  <rect x="60" y="364" width="1080" height="100" rx="8" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="2"/>
+  <rect x="60" y="364" width="6" height="100" fill="#E43525"/>
+  <circle cx="112" cy="414" r="20" fill="#FDECEA" stroke="#E43525" stroke-width="2"/>
+  <path d="M104 406 L120 422 M120 406 L104 422" stroke="#E43525" stroke-width="3" stroke-linecap="round"/>
+  <text x="150" y="404" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#171717">Publishing shallow content</text>
+  <text x="150" y="430" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Generative engines favor depth over surface coverage</text>
+
+  <rect x="60" y="476" width="1080" height="100" rx="8" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="2"/>
+  <rect x="60" y="476" width="6" height="100" fill="#E43525"/>
+  <circle cx="112" cy="526" r="20" fill="#FDECEA" stroke="#E43525" stroke-width="2"/>
+  <path d="M104 518 L120 534 M120 518 L104 534" stroke="#E43525" stroke-width="3" stroke-linecap="round"/>
+  <text x="150" y="516" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#171717">Lack of structured data</text>
+  <text x="150" y="542" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Without markup, AI systems struggle to parse entities</text>
+
+  <rect x="60" y="588" width="1080" height="100" rx="8" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="2"/>
+  <rect x="60" y="588" width="6" height="100" fill="#E43525"/>
+  <circle cx="112" cy="638" r="20" fill="#FDECEA" stroke="#E43525" stroke-width="2"/>
+  <path d="M104 630 L120 646 M120 630 L104 646" stroke="#E43525" stroke-width="3" stroke-linecap="round"/>
+  <text x="150" y="628" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#171717">Treating GEO as a one-time task</text>
+  <text x="150" y="654" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Sustained visibility requires ongoing measurement</text>
+</svg>

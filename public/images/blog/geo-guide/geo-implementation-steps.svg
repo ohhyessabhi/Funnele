@@ -1,0 +1,41 @@
+<svg width="1200" height="860" viewBox="0 0 1200 860" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="860" fill="#FFFFFF"/>
+
+  <text x="60" y="56" font-family="Consolas, Menlo, monospace" font-size="16" letter-spacing="2" fill="#E43525">IMPLEMENTATION PLAN</text>
+  <text x="60" y="98" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#171717">Six steps to execute GEO</text>
+
+  <line x1="60" y1="130" x2="1140" y2="130" stroke="#EAEAEA"/>
+  <text x="60" y="180" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#E43525">01</text>
+  <text x="150" y="168" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717">Audit existing content</text>
+  <text x="150" y="194" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Assess current pages for AI readability</text>
+  <line x1="60" y1="220" x2="1140" y2="220" stroke="#EAEAEA"/>
+
+  <text x="60" y="270" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#E43525">02</text>
+  <text x="150" y="258" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717">Strengthen topical authority</text>
+  <text x="150" y="284" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Build content clusters around core expertise</text>
+  <line x1="60" y1="310" x2="1140" y2="310" stroke="#EAEAEA"/>
+
+  <text x="60" y="360" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#E43525">03</text>
+  <text x="150" y="348" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717">Apply structured data</text>
+  <text x="150" y="374" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Mark up entities and relationships for machines</text>
+  <line x1="60" y1="400" x2="1140" y2="400" stroke="#EAEAEA"/>
+
+  <text x="60" y="450" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#E43525">04</text>
+  <text x="150" y="438" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717">Improve depth &amp; clarity</text>
+  <text x="150" y="464" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Expand shallow pages and tighten structure</text>
+  <line x1="60" y1="490" x2="1140" y2="490" stroke="#EAEAEA"/>
+
+  <text x="60" y="540" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#E43525">05</text>
+  <text x="150" y="528" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717">Build trusted mentions</text>
+  <text x="150" y="554" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Earn citations, partnerships, and references</text>
+  <line x1="60" y1="580" x2="1140" y2="580" stroke="#EAEAEA"/>
+
+  <text x="60" y="630" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#E43525">06</text>
+  <text x="150" y="618" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#171717">Monitor AI visibility</text>
+  <text x="150" y="644" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Track brand mentions inside AI-generated answers</text>
+  <line x1="60" y1="670" x2="1140" y2="670" stroke="#EAEAEA"/>
+
+  <rect x="60" y="706" width="1080" height="110" rx="8" fill="#FDECEA" stroke="#E43525" stroke-width="2"/>
+  <text x="90" y="746" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#171717">This is a continuous loop, not a checklist.</text>
+  <text x="90" y="774" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Revisit each step as generative engines evolve their evaluation criteria.</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#FFFFFF"/>
+
+  <text x="60" y="56" font-family="Consolas, Menlo, monospace" font-size="16" letter-spacing="2" fill="#E43525">GEO BEST PRACTICE</text>
+  <text x="60" y="98" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#171717">Five priorities for 2026</text>
+
+  <rect x="60" y="140" width="1080" height="100" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <circle cx="110" cy="190" r="24" fill="#E43525"/>
+  <path d="M99 190 L107 198 L122 180" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="156" y="180" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#171717">Be citation-worthy</text>
+  <text x="156" y="206" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Write content AI systems can confidently reference</text>
+
+  <rect x="60" y="252" width="1080" height="100" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <circle cx="110" cy="302" r="24" fill="#E43525"/>
+  <path d="M99 302 L107 310 L122 292" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="156" y="292" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#171717">Structure for clarity</text>
+  <text x="156" y="318" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Clear headings, logical flow, and semantic depth</text>
+
+  <rect x="60" y="364" width="1080" height="100" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <circle cx="110" cy="414" r="24" fill="#E43525"/>
+  <path d="M99 414 L107 422 L122 404" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="156" y="404" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#171717">Build topical authority</text>
+  <text x="156" y="430" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Consistent, expert coverage of a subject over time</text>
+
+  <rect x="60" y="476" width="1080" height="100" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <circle cx="110" cy="526" r="24" fill="#E43525"/>
+  <path d="M99 526 L107 534 L122 516" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="156" y="516" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#171717">Add structured data</text>
+  <text x="156" y="542" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Help engines parse entities and relationships</text>
+
+  <rect x="60" y="588" width="1080" height="100" rx="8" fill="#FAFAFA" stroke="#EAEAEA"/>
+  <circle cx="110" cy="638" r="24" fill="#E43525"/>
+  <path d="M99 638 L107 646 L122 628" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="156" y="628" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#171717">Measure AI visibility</text>
+  <text x="156" y="654" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5B5B5B">Track mentions, citations, and assisted conversions</text>
+</svg>
