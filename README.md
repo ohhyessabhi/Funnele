@@ -15,22 +15,30 @@ Visit `http://localhost:3000`. Port comes from `process.env.PORT`, falling back 
 ## Project structure
 
 ```
-server.js            Express app entry point
-routes/               index.js, services.js, resources.js, contact.js
-views/                EJS templates
-  partials/           head.ejs, nav.ejs, footer.ejs, icons.ejs (shared, written once)
-  services/            overview.ejs (all 4 disciplines) + detail.ejs (shared template for each dedicated page)
+server.js              Express app entry point
+routes/
+  site.js              Static pages, redirects from old URLs, sitemap.xml, robots.txt
+  resources.js         Journal (/blog) and case study articles, read from content/
+  contact.js           Contact page and form handling
+views/
+  pages/               One EJS file per page (home, seo, problems, case studies, about, contact)
+  partials/            site-head, site-header, site-footer (shared by every page)
+  blog-index.ejs       Journal listing
+  article.ejs          Single article (blog post or case study)
+  404.ejs
 public/
-  css/styles.css       all site styling (vanilla CSS)
-  js/main.js           scroll-reveal, cursor-glow, nav dropdown/mobile menu, resource filters
+  css/site.css         Shared styles for all pages
+  css/home.css         Extra styles for the home page
+  js/site.js           Cursor spotlight effect
+  images/              Images used in pages and articles
 content/
-  blog/                drop .md blog posts here
-  case-studies/        drop .md case studies here
+  blog/                .md journal posts
+  case-studies/        .md case studies
 lib/
-  content.js           gray-matter + markdown-it parsing (reads content/ at request time — no DB, no build step)
-  mailer.js             nodemailer contact form sender
-  services-data.js      copy/deliverables for the 4 service pages (single source of truth)
-  logo-data.js          Funnele wordmark logo as a base64 data URI (no separate image file to lose track of)
+  content.js           Reads and renders the markdown files (no database, no build step)
+  mailer.js            Sends contact form emails
+  site-meta.json       Page titles, descriptions and keywords for each page
+  logo-data.js         Funnele wordmark as a data URI
 ```
 
 ## Adding blog posts / case studies

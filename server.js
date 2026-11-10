@@ -3,8 +3,7 @@ require('dotenv').config();
 const express = require('express');
 const path = require('path');
 
-const indexRoutes = require('./routes/index');
-const servicesRoutes = require('./routes/services');
+const siteRoutes = require('./routes/site');
 const resourcesRoutes = require('./routes/resources');
 const contactRoutes = require('./routes/contact');
 const logoDataUri = require('./lib/logo-data');
@@ -21,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Make the current path + logo available to every view
+// Shared values for every view
 app.use((req, res, next) => {
   res.locals.currentPath = req.path;
   res.locals.logoDataUri = logoDataUri;
@@ -30,16 +29,18 @@ app.use((req, res, next) => {
 });
 
 // ---- Routes ----
-app.use('/', indexRoutes);
-app.use('/services', servicesRoutes);
-app.use('/resources', resourcesRoutes);
 app.use('/contact', contactRoutes);
+app.use('/', resourcesRoutes);
+app.use('/', siteRoutes);
 
 // ---- 404 ----
 app.use((req, res) => {
   res.status(404).render('404', {
-    title: 'Page Not Found — Funnele',
-    description: 'The page you are looking for does not exist.'
+    title: 'Page not found | Funnele',
+    description: 'The page you are looking for does not exist.',
+    keywords: '',
+    canonical: `${(process.env.SITE_URL || 'https://funnele.com').replace(/\/$/, '')}${req.path}`,
+    extraCss: null
   });
 });
 

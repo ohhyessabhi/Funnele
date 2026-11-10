@@ -1,18 +1,11 @@
-<%- include('partials/head') %>
-<%- include('partials/nav') %>
-
-<main id="top">
-  <section class="hero" style="padding:120px 0; text-align:center;">
-    <div class="wrap hero-inner" style="max-width:100%; text-align:center; margin:0 auto;">
-      <p class="eyebrow" style="justify-content:center;">404</p>
-      <h1 style="font-size:clamp(2.1rem,4vw,3.2rem);">That page doesn't exist.</h1>
-      <p class="lead" style="margin-left:auto; margin-right:auto;">The page you're looking for may have moved or never existed.</p>
-      <div class="btn-row" style="justify-content:center;">
-        <a href="/" class="btn btn-primary">Back to Home</a>
-        <a href="/contact" class="btn btn-secondary">Contact Us</a>
-      </div>
-    </div>
-  </section>
+<%- include('partials/site-head') %>
+<%- include('partials/site-header') %>
+<main>
+<section style="padding:140px 0 160px"><div class="wrap" style="text-align:left">
+  <p class="label red" style="margin:0 0 20px">Error 404</p>
+  <h1 class="disp" style="font-size:clamp(48px,7vw,96px);margin:0 0 30px">This page is not here.</h1>
+  <p class="p" style="font-size:19px;max-width:560px;margin:0 0 36px">The link may be old, or the page may have moved. Start again from the home page.</p>
+  <a href="/" class="btn btn-red">Back to the home page →</a>
+</div></section>
 </main>
-
-<%- include('partials/footer') %>
+<%- include('partials/site-footer') %>

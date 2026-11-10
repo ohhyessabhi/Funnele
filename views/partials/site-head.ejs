@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><%= title %></title>
+<meta name="description" content="<%= description %>">
+<% if (typeof keywords !== 'undefined' && keywords) { %><meta name="keywords" content="<%= keywords %>"><% } %>
+<link rel="canonical" href="<%= canonical %>">
+<meta property="og:type" content="website">
+<meta property="og:title" content="<%= title %>">
+<meta property="og:description" content="<%= description %>">
+<meta property="og:url" content="<%= canonical %>">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="<%= logoDataUri %>" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/css/site.css?v=<%= assetVersion %>">
+<% if (typeof extraCss !== 'undefined' && extraCss) { %><link rel="stylesheet" href="<%= extraCss %>?v=<%= assetVersion %>"><% } %>
+</head>
+<body>

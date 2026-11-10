@@ -1,0 +1,23 @@
+<%- include('partials/site-head') %>
+<%- include('partials/site-header') %>
+<main>
+<section style="padding:110px 0 80px"><div class="wrap">
+  <p class="label red" style="margin:0 0 20px">Journal</p>
+  <h1 class="disp hero-h" style="font-size:clamp(44px,6.4vw,92px);margin:0 0 30px;max-width:1000px">Ecommerce SEO articles: notes on search for people who sell things.</h1>
+  <p class="p" style="font-size:20px;max-width:620px">Practical and specific, written for store owners and the people who run their sites.</p>
+</div></section>
+
+<section style="padding:0 0 140px"><div class="wrap g2">
+  <% if (items.length === 0) { %>
+    <p class="p">New articles are on the way.</p>
+  <% } %>
+  <% items.forEach(function (item) { %>
+    <a href="/blog/<%= item.slug %>" class="card reveal">
+      <p class="label" style="margin:0 0 20px"><%= item.category %><% if (item.date) { %> · <%= new Date(item.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) %><% } %></p>
+      <h2 class="disp" style="font-size:36px;margin:0 0 16px"><%= item.title %></h2>
+      <p class="p" style="font-size:16px"><%= item.excerpt %></p>
+    </a>
+  <% }) %>
+</div></section>
+</main>
+<%- include('partials/site-footer') %>

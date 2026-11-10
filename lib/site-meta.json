@@ -1,0 +1,86 @@
+{
+  "home": {
+    "title": "Ecommerce SEO agency | SEO, AEO and GEO for online stores | Funnele",
+    "description": "Funnele is an ecommerce SEO agency. We fix what holds your online store back on Google and in AI answers, then grow revenue from search.",
+    "keywords": "ecommerce seo agency, seo for ecommerce, aeo optimization, geo optimization",
+    "path": "/"
+  },
+  "seo": {
+    "title": "Ecommerce SEO services for online stores | Funnele",
+    "description": "Ecommerce SEO services: technical fixes, product page copy, buying guides and links, reported every month by a senior team.",
+    "keywords": "ecommerce seo services, seo for ecommerce, shopify seo services",
+    "path": "/seo"
+  },
+  "problems": {
+    "title": "Start with a problem: ecommerce SEO issues we fix | Funnele",
+    "description": "Tell us what is not working on your store. Technical, content, on-page, link and AI search problems, each with a clear fix.",
+    "keywords": "ecommerce seo company, ecommerce seo problems",
+    "path": "/problems"
+  },
+  "problem-technical": {
+    "title": "Technical SEO audit for ecommerce stores | Funnele",
+    "description": "Google cannot read parts of your store? We find the crawl, speed and indexing problems and fix the most costly ones first.",
+    "keywords": "technical seo for ecommerce, ecommerce technical seo audit, shopify technical seo",
+    "path": "/problems/technical"
+  },
+  "problem-content": {
+    "title": "Ecommerce content strategy and buying guides | Funnele",
+    "description": "Buying guides and articles built around the questions your buyers ask before they purchase, linked to the products they need.",
+    "keywords": "ecommerce content strategy, buying guide seo, ecommerce blog seo",
+    "path": "/problems/content"
+  },
+  "problem-on-page": {
+    "title": "Product page SEO and collection page copy | Funnele",
+    "description": "Product and collection pages rewritten for the buyer first, then tuned so search engines match them to the right searches.",
+    "keywords": "product page seo, collection page seo, ecommerce title tags",
+    "path": "/problems/on-page"
+  },
+  "problem-links": {
+    "title": "Ecommerce link building and link cleanup | Funnele",
+    "description": "Relevant guest posts, PR and citations for your store, plus removal of spammy links that hold your domain back.",
+    "keywords": "ecommerce link building, ecommerce backlinks, link cleanup",
+    "path": "/problems/links"
+  },
+  "problem-ai-search": {
+    "title": "AEO optimization for ecommerce stores | Funnele",
+    "description": "Make your store easier for AI answer tools to find, understand and cite. AEO and GEO work for online stores, tracked each month.",
+    "keywords": "aeo optimization, geo optimization, ai seo for ecommerce, generative engine optimization",
+    "path": "/problems/ai-search"
+  },
+  "seo-reporting": {
+    "title": "Monthly SEO reporting for ecommerce | Funnele",
+    "description": "A monthly ecommerce SEO report on rankings, visits and revenue from search, with a review call and clear next steps.",
+    "keywords": "ecommerce seo reporting, seo report for shopify",
+    "path": "/seo/reporting"
+  },
+  "case-studies": {
+    "title": "Ecommerce SEO case studies | Funnele",
+    "description": "Two anonymised ecommerce SEO case studies with real figures: organic traffic, revenue and rankings measured over six months.",
+    "keywords": "ecommerce seo case studies, seo results for ecommerce",
+    "path": "/case-studies"
+  },
+  "case-golf": {
+    "title": "Golf equipment ecommerce SEO case study | Funnele",
+    "description": "How a golf equipment store grew organic visits by 175 percent and monthly search revenue to over $18K in six months.",
+    "keywords": "ecommerce seo case study, golf equipment seo",
+    "path": "/case-studies/golf"
+  },
+  "case-industrial": {
+    "title": "Cleaning products ecommerce SEO case study | Funnele",
+    "description": "How an industrial cleaning products store grew organic revenue to over $25K a month and traffic by 250 percent in six months.",
+    "keywords": "ecommerce seo case study, shopify seo case study, cleaning products seo",
+    "path": "/case-studies/industrial"
+  },
+  "about": {
+    "title": "About Funnele | Ecommerce SEO team",
+    "description": "Funnele is a small ecommerce SEO team. We work on the parts of a store that decide whether Google and AI tools send buyers to it.",
+    "keywords": "ecommerce seo team, about ecommerce seo agency",
+    "path": "/about"
+  },
+  "contact": {
+    "title": "Book a free ecommerce SEO analysis | Funnele",
+    "description": "Book a free 30-minute call. You get a written analysis of your store and a price only after you have seen it.",
+    "keywords": "ecommerce seo analysis, free seo audit for ecommerce",
+    "path": "/contact"
+  }
+}

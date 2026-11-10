@@ -2,42 +2,51 @@ const express = require('express');
 const router = express.Router();
 const { getAllContent, getBySlug } = require('../lib/content');
 
-router.get('/', (req, res) => {
-  res.redirect('/resources/blog');
-});
+const BASE = (process.env.SITE_URL || 'https://funnele.com').replace(/\/$/, '');
 
 router.get('/blog', (req, res) => {
   const items = getAllContent().filter((item) => item.type === 'blog');
-  res.render('resources', {
-    title: 'Blog — Funnele',
-    description: 'Notes on white-label execution and ecommerce growth from the Funnele team.',
-    items,
-    pageType: 'blog',
-    heading: 'Notes from behind the scenes.',
-    subhead: "Notes on white-label execution, ecommerce growth, and what we've learned running Meta, Google, SEO and web dev across partner accounts."
+  res.render('blog-index', {
+    title: 'Journal: ecommerce SEO, AEO and GEO articles | Funnele',
+    description: 'Practical articles on ecommerce SEO, AEO, GEO and product pages, written for store owners and the people who run their sites.',
+    keywords: 'ecommerce seo articles, seo articles for ecommerce',
+    canonical: `${BASE}/blog`,
+    extraCss: null,
+    items
   });
 });
 
-router.get('/case-studies', (req, res) => {
-  const items = getAllContent().filter((item) => item.type === 'case-study');
-  res.render('resources', {
-    title: 'Case Studies — Funnele',
-    description: 'Case studies from live partner accounts we execute under white-label.',
-    items,
-    pageType: 'case-study',
-    heading: 'Real accounts. Real execution.',
-    subhead: 'Case studies from live partner accounts — the scope, the execution, and the outcome, delivered under our partner agencies\' brands.'
-  });
-});
-
-router.get('/:slug', (req, res, next) => {
+router.get('/blog/:slug', (req, res, next) => {
   const item = getBySlug(req.params.slug);
-  if (!item) return next(); // falls through to 404
+  if (!item || item.type !== 'blog') return next();
   res.render('article', {
-    title: `${item.title} — Funnele`,
+    title: `${item.title} | Funnele`,
     description: item.excerpt || item.title,
+    keywords: '',
+    canonical: `${BASE}/blog/${item.slug}`,
+    extraCss: null,
     item
   });
+});
+
+router.get('/case-studies/:slug', (req, res, next) => {
+  const item = getBySlug(req.params.slug);
+  if (!item || item.type !== 'case-study') return next();
+  res.render('article', {
+    title: `${item.title} | Funnele`,
+    description: item.excerpt || item.title,
+    keywords: '',
+    canonical: `${BASE}/case-studies/${item.slug}`,
+    extraCss: null,
+    item
+  });
+});
+
+// Old /resources/:slug links move to their new paths.
+router.get('/resources/:slug', (req, res, next) => {
+  const item = getBySlug(req.params.slug);
+  if (!item) return next();
+  res.redirect(301, item.type === 'blog' ? `/blog/${item.slug}` : `/case-studies/${item.slug}`);
 });
 
 module.exports = router;
