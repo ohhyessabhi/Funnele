@@ -35,8 +35,7 @@ section[style*="var(--ink)"]::before{content:"";position:absolute;width:620px;he
 @keyframes drift2{0%,100%{transform:translateX(0)}50%{transform:translateX(-60px)}}
 .ribbon{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.2;filter:blur(26px)}
 .spot{position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle 340px at var(--sx,50%) var(--sy,30%),rgba(228,53,37,.16),transparent 70%);z-index:0}
-.scanner{position:fixed;left:0;right:0;top:0;height:1px;background:linear-gradient(90deg,transparent,#E43525 30%,#E43525 70%,transparent);z-index:45;opacity:.6;animation:scan linear both;animation-timeline:scroll(root);pointer-events:none}
-@keyframes scan{from{transform:translateY(0)}to{transform:translateY(100vh)}}
+
 body{animation:bgshift linear both;animation-timeline:scroll(root)}
 @keyframes bgshift{0%{background-color:#F6F3EC}50%{background-color:#EEE9DD}100%{background-color:#F6F3EC}}
 .kwband{overflow:hidden;padding:26px 0;border-bottom:1px solid var(--line);background:#FBFAF6}
