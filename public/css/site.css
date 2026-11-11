@@ -96,3 +96,4 @@ main > section:first-child{background-image:radial-gradient(circle at 15% 25%,rg
 .navdd summary{font-weight:600}
 .navpanel a{font-weight:500}
 .btn-red{font-weight:700}
+@media (max-width:860px){.svc-row{grid-template-columns:1fr!important;gap:36px!important;margin:0 0 80px!important}.svc-row>div{order:initial!important}}
