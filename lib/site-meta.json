@@ -84,39 +84,39 @@
     "path": "/contact"
   },
   "web-development": {
-    "title": "Web development for online stores | Funnele",
-    "description": "Web design, development, conversion, speed and upkeep on Shopify, BigCommerce, WooCommerce, Magento and WordPress. Review, plan, then price.",
-    "keywords": "web development, shopify development, bigcommerce development, woocommerce development, magento development, wordpress development",
+    "title": "Ecommerce web development company | Funnele",
+    "description": "Ecommerce web development for Shopify, BigCommerce, WooCommerce, Magento and WordPress. Review, plan, then price.",
+    "keywords": "ecommerce web development company, ecommerce web development, shopify developer, bigcommerce development, woocommerce development, magento development, wordpress development",
     "path": "/web-development"
   },
   "web-design": {
-    "title": "Website design for ecommerce brands | Funnele",
-    "description": "Website design that looks like your brand and makes buying easy. Layouts and visual systems reviewed with you before anything is built.",
-    "keywords": "website design for ecommerce, ecommerce web design, shopify design",
+    "title": "Shopify and ecommerce website design | Funnele",
+    "description": "Shopify and ecommerce website design that looks like your brand. Layouts reviewed with you before anything is built.",
+    "keywords": "shopify website design, ecommerce website design, website design for ecommerce",
     "path": "/web-development/design"
   },
   "web-development-build": {
-    "title": "Shopify, BigCommerce, WooCommerce, Magento and WordPress development | Funnele",
-    "description": "Websites built properly on Shopify, BigCommerce, WooCommerce, Magento or WordPress. Stable, easy to change and connected to your tools.",
-    "keywords": "shopify development, bigcommerce development, woocommerce development, magento development, wordpress development",
+    "title": "Shopify developer and platform builds | Funnele",
+    "description": "Shopify developer work, plus BigCommerce, WooCommerce, Magento and WordPress development. Stable, easy to change and connected to your tools.",
+    "keywords": "shopify developer, shopify development, bigcommerce development, woocommerce development, magento development, wordpress development",
     "path": "/web-development/development"
   },
   "web-conversion": {
-    "title": "Ecommerce conversion optimisation | Funnele",
-    "description": "Measured changes to product, cart and checkout pages. We change one thing at a time and keep what makes a difference.",
-    "keywords": "ecommerce conversion optimisation, conversion rate optimisation, checkout optimisation",
+    "title": "Conversion rate optimization for ecommerce | Funnele",
+    "description": "Conversion rate optimization for ecommerce: measured changes to product, cart and checkout pages, one change at a time.",
+    "keywords": "conversion rate optimization ecommerce, ecommerce conversion optimization",
     "path": "/web-development/conversion"
   },
   "web-speed": {
-    "title": "Website speed optimisation for ecommerce | Funnele",
-    "description": "Faster ecommerce pages on phones and desktops. We measure real speed and fix the heaviest problems first.",
-    "keywords": "website speed optimisation, ecommerce site speed, shopify speed optimisation",
+    "title": "Shopify speed optimization | Funnele",
+    "description": "Shopify speed optimization: faster pages on phones and desktops, with the heaviest problems fixed first.",
+    "keywords": "shopify speed optimization, shopify site speed",
     "path": "/web-development/speed"
   },
   "web-upkeep": {
-    "title": "Website maintenance and upkeep | Funnele",
-    "description": "Website updates, security, backups and changes through one shared queue, with a monthly health report.",
-    "keywords": "website maintenance, ecommerce website maintenance, shopify maintenance",
+    "title": "Ecommerce website maintenance | Funnele",
+    "description": "Ecommerce and Shopify website maintenance: updates, security, backups and one shared queue for changes.",
+    "keywords": "ecommerce website maintenance, shopify website maintenance, website maintenance",
     "path": "/web-development/upkeep"
   }
 }
