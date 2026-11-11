@@ -7,6 +7,9 @@
   <% if (item.date) { %><p class="label"><%= new Date(item.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) %></p><% } %>
 </div></section>
 
+<% if (item.cover) { %><section style="padding:0 0 10px"><div class="narrow"><img src="<%= item.cover %>" alt="<%= item.title %>" width="1200" height="630" style="display:block;width:100%;height:auto;border-radius:20px;border:1px solid var(--line)"></div></section><% } %>
+
+<style>.prose img{display:block;width:100%;height:auto;margin:44px 0;border-radius:18px;border:1px solid var(--line)}</style>
 <section style="padding:20px 0 120px"><div class="narrow prose"><%- item.html %></div></section>
 
 <section style="padding:0 0 130px"><div class="narrow">

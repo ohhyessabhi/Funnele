@@ -7,21 +7,21 @@
   <p class="p" style="font-size:20px;max-width:620px">Practical articles on ecommerce SEO, AEO and GEO, and the websites that turn visits into orders.</p>
 </div></section>
 
+<style>.jrow{display:grid;grid-template-columns:280px 1fr auto;gap:36px;align-items:center;padding:36px 0;border-top:1px solid var(--line)}.jrow img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--line)}.jread{white-space:nowrap}@media (max-width:760px){.jrow{grid-template-columns:1fr;gap:20px}}</style>
 <section style="padding:0 0 120px"><div class="wrap">
   <% if (items.length === 0) { %>
     <p class="p" style="font-size:18px">New articles are on the way.</p>
   <% } %>
   <% items.forEach(function (item) { %>
-    <a href="/blog/<%= item.slug %>" style="display:grid;grid-template-columns:200px 1fr auto;gap:40px;align-items:center;padding:40px 0;border-top:1px solid var(--line)">
+    <a class="jrow" href="/blog/<%= item.slug %>">
+      <% if (item.cover) { %><img src="<%= item.cover %>" alt="" loading="lazy" width="1200" height="630"><% } %>
       <div>
         <p class="label red" style="margin:0 0 10px"><%= item.category %></p>
-        <p class="label" style="margin:0"><% if (item.date) { %><%= new Date(item.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) %><% } %></p>
-      </div>
-      <div>
+        <p class="label" style="margin:0 0 14px"><% if (item.date) { %><%= new Date(item.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) %><% } %></p>
         <h2 class="disp" style="font-size:clamp(28px,3vw,40px);margin:0 0 14px"><%= item.title %></h2>
         <p class="p" style="font-size:17px;max-width:680px"><%= item.excerpt %></p>
       </div>
-      <p class="label red" style="margin:0;white-space:nowrap">Read &rarr;</p>
+      <p class="label red jread" style="margin:0">Read &rarr;</p>
     </a>
   <% }) %>
   <div style="border-top:1px solid var(--line)"></div>
