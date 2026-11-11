@@ -31,6 +31,12 @@ const PAGE_ROUTES = [
   ['/case-studies', 'pages/case-studies', 'case-studies'],
   ['/case-studies/golf', 'pages/case-golf', 'case-golf'],
   ['/case-studies/industrial', 'pages/case-industrial', 'case-industrial'],
+  ['/web-development', 'pages/web-development', 'web-development'],
+  ['/web-development/design', 'pages/web-design', 'web-design'],
+  ['/web-development/development', 'pages/web-development-build', 'web-development-build'],
+  ['/web-development/conversion', 'pages/web-conversion', 'web-conversion'],
+  ['/web-development/speed', 'pages/web-speed', 'web-speed'],
+  ['/web-development/upkeep', 'pages/web-upkeep', 'web-upkeep'],
   ['/about', 'pages/about', 'about']
 ];
 PAGE_ROUTES.forEach(([route, view, key]) => router.get(route, renderPage(view, key)));

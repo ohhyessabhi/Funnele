@@ -82,5 +82,41 @@
     "description": "Book a free 30-minute call. You get a written analysis of your store and a price only after you have seen it.",
     "keywords": "ecommerce seo analysis, free seo audit for ecommerce",
     "path": "/contact"
+  },
+  "web-development": {
+    "title": "Web development for online stores | Funnele",
+    "description": "Web design, development, conversion, speed and upkeep on Shopify, BigCommerce, WooCommerce, Magento and WordPress. Review, plan, then price.",
+    "keywords": "web development, shopify development, bigcommerce development, woocommerce development, magento development, wordpress development",
+    "path": "/web-development"
+  },
+  "web-design": {
+    "title": "Website design for ecommerce brands | Funnele",
+    "description": "Website design that looks like your brand and makes buying easy. Layouts and visual systems reviewed with you before anything is built.",
+    "keywords": "website design for ecommerce, ecommerce web design, shopify design",
+    "path": "/web-development/design"
+  },
+  "web-development-build": {
+    "title": "Shopify, BigCommerce, WooCommerce, Magento and WordPress development | Funnele",
+    "description": "Websites built properly on Shopify, BigCommerce, WooCommerce, Magento or WordPress. Stable, easy to change and connected to your tools.",
+    "keywords": "shopify development, bigcommerce development, woocommerce development, magento development, wordpress development",
+    "path": "/web-development/development"
+  },
+  "web-conversion": {
+    "title": "Ecommerce conversion optimisation | Funnele",
+    "description": "Measured changes to product, cart and checkout pages. We change one thing at a time and keep what makes a difference.",
+    "keywords": "ecommerce conversion optimisation, conversion rate optimisation, checkout optimisation",
+    "path": "/web-development/conversion"
+  },
+  "web-speed": {
+    "title": "Website speed optimisation for ecommerce | Funnele",
+    "description": "Faster ecommerce pages on phones and desktops. We measure real speed and fix the heaviest problems first.",
+    "keywords": "website speed optimisation, ecommerce site speed, shopify speed optimisation",
+    "path": "/web-development/speed"
+  },
+  "web-upkeep": {
+    "title": "Website maintenance and upkeep | Funnele",
+    "description": "Website updates, security, backups and changes through one shared queue, with a monthly health report.",
+    "keywords": "website maintenance, ecommerce website maintenance, shopify maintenance",
+    "path": "/web-development/upkeep"
   }
 }

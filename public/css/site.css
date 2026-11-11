@@ -91,3 +91,8 @@ main > section:first-child{background-image:radial-gradient(circle at 15% 25%,rg
 .navpanel a{padding:12px 14px;border-radius:10px;color:var(--ink);font-size:15px}
 .navpanel a:hover{background:var(--paper)}
 .navon{color:var(--red)}
+
+.nav-links a{font-weight:600}
+.navdd summary{font-weight:600}
+.navpanel a{font-weight:500}
+.btn-red{font-weight:700}

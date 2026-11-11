@@ -9,3 +9,13 @@
     });
   });
 })();
+
+// Only one navigation dropdown open at a time
+document.querySelectorAll('details.navdd').forEach(function (d) {
+  d.addEventListener('toggle', function () {
+    if (!d.open) return;
+    document.querySelectorAll('details.navdd').forEach(function (other) {
+      if (other !== d) other.open = false;
+    });
+  });
+});
