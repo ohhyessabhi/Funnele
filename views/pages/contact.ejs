@@ -1,32 +1,91 @@
 <%- include('../partials/site-head') %>
 <%- include('../partials/site-header') %>
 <main>
-<% if (submitted) { %><section style="padding:24px 0 0"><div class="wrap"><div style="background:#ECF7EE;border:1px solid #BFE3C8;border-radius:16px;padding:20px 24px;font-size:16px">Thank you. We have your details and will reply within one working day.</div></div></section><% } %>
+<% if (submitted) { %><section style="padding:24px 0 0"><div class="wrap"><div style="background:#ECF7EE;border:1px solid #BFE3C8;border-radius:16px;padding:20px 24px;font-size:16px">Thanks. We have your details and will reply within one working day.</div></div></section><% } %>
 <% if (error) { %><section style="padding:24px 0 0"><div class="wrap"><div style="background:#FDECEA;border:1px solid #F3B7B0;border-radius:16px;padding:20px 24px;font-size:16px"><%= error %></div></div></section><% } %>
 
+<section style="padding:110px 0 130px"><div class="wrap split" style="grid-template-columns:1fr 1fr;gap:90px;align-items:start">
 
-<section style="padding:110px 0 130px"><svg class="ribbon" viewBox="0 0 1280 760" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="rgRibbon" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E43525" stop-opacity=".9"/><stop offset=".55" stop-color="#FFB8A8" stop-opacity=".7"/><stop offset="1" stop-color="#121212" stop-opacity=".35"/></linearGradient></defs><path d="M720,-20 C920,150 1110,30 1300,230 L1300,540 C1120,390 990,660 770,520 C630,430 570,210 720,-20Z" fill="url(#rgRibbon)"/></svg><div class="outline" aria-hidden="true">FUNNELE</div><div class="spot" aria-hidden="true"></div><svg class="constel" viewBox="0 0 1280 760" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><line x1="720" y1="120" x2="830" y2="90" class="cl"/><line x1="830" y1="90" x2="960" y2="150" class="cl"/><line x1="960" y1="150" x2="1080" y2="110" class="cl"/><line x1="1080" y1="110" x2="1190" y2="190" class="cl"/><line x1="720" y1="120" x2="780" y2="260" class="cl"/><line x1="780" y1="260" x2="900" y2="300" class="cl"/><line x1="900" y1="300" x2="960" y2="150" class="cl"/><line x1="900" y1="300" x2="1040" y2="280" class="cl"/><line x1="1040" y1="280" x2="1080" y2="110" class="cl"/><line x1="1040" y1="280" x2="1170" y2="350" class="cl"/><line x1="780" y1="260" x2="860" y2="430" class="cl"/><line x1="860" y1="430" x2="990" y2="470" class="cl"/><line x1="990" y1="470" x2="1040" y2="280" class="cl"/><line x1="990" y1="470" x2="1120" y2="520" class="cl"/><line x1="1120" y1="520" x2="1220" y2="470" class="cl"/><line x1="1170" y1="350" x2="1220" y2="470" class="cl"/><line x1="860" y1="430" x2="760" y2="560" class="cl"/><line x1="760" y1="560" x2="930" y2="600" class="cl"/><line x1="990" y1="470" x2="930" y2="600" class="cl"/><line x1="930" y1="600" x2="1120" y2="520" class="cl"/><circle cx="720" cy="120" r="3" class="cd"/><circle cx="830" cy="90" r="3" class="cd"/><circle cx="960" cy="150" r="5" class="cd hot"/><circle cx="1080" cy="110" r="3" class="cd"/><circle cx="1190" cy="190" r="3" class="cd"/><circle cx="780" cy="260" r="3" class="cd"/><circle cx="900" cy="300" r="3" class="cd"/><circle cx="1040" cy="280" r="5" class="cd hot"/><circle cx="1170" cy="350" r="3" class="cd"/><circle cx="860" cy="430" r="3" class="cd"/><circle cx="990" cy="470" r="3" class="cd"/><circle cx="1120" cy="520" r="5" class="cd hot"/><circle cx="1220" cy="470" r="3" class="cd"/><circle cx="760" cy="560" r="3" class="cd"/><circle cx="930" cy="600" r="3" class="cd"/></svg><div class="wrap split" style="grid-template-columns:.9fr 1.1fr;gap:80px">
   <div>
-    <p class="label red" style="margin:0 0 26px">Book a strategy call</p>
-    <h1 class="disp hero-h" style="font-size:clamp(44px,6vw,80px);margin:0 0 30px">Book a free ecommerce SEO analysis.</h1>
-    <p class="p" style="margin:0 0 40px">The call is free and takes about 30 minutes. You get a written analysis after it, and we talk about price only once you have seen it.</p>
-    <div style="display:grid;gap:18px;border-top:1px solid var(--line);padding-top:30px">
-      <div><p class="label" style="margin:0 0 6px">What happens next</p><p class="p" style="font-size:16px">1. We confirm a time. 2. We talk about your store. 3. You get the analysis within a week.</p></div>
-      <div><p class="label" style="margin:0 0 6px">Prefer email?</p><p class="p" style="font-size:16px">abhijeet@funnele.com</p></div>
-    </div>
-  </div>
-  <form class="card" style="padding:44px;min-width:0" onsubmit="return false">
-    <div style="display:grid;gap:8px;margin-bottom:22px"><label for="n" class="label">Your name</label><input id="n" name="name" type="text" placeholder="Full name" style="background:#fff;border:1px solid #D8D2C4;border-radius:12px;padding:15px 16px;font:inherit;font-size:16px;color:var(--ink);width:100%;box-sizing:border-box;min-width:0"></div>
-    <div style="display:grid;gap:8px;margin-bottom:22px"><label for="e" class="label">Work email</label><input id="e" name="email" type="email" placeholder="you@yourstore.com" style="background:#fff;border:1px solid #D8D2C4;border-radius:12px;padding:15px 16px;font:inherit;font-size:16px;color:var(--ink);width:100%;box-sizing:border-box;min-width:0"></div>
-    <div style="display:grid;gap:8px;margin-bottom:22px"><label for="s" class="label">Store website</label><input id="s" name="website" type="url" placeholder="https://" style="background:#fff;border:1px solid #D8D2C4;border-radius:12px;padding:15px 16px;font:inherit;font-size:16px;color:var(--ink);width:100%;box-sizing:border-box;min-width:0"></div>
-    <div style="display:grid;gap:8px;margin-bottom:22px"><label for="a" class="label">Store name</label><input id="a" name="agency" type="text" placeholder="Your store name" style="background:#fff;border:1px solid #D8D2C4;border-radius:12px;padding:15px 16px;font:inherit;font-size:16px;color:var(--ink);width:100%;box-sizing:border-box;min-width:0"></div>
-    <div style="display:grid;gap:8px;margin-bottom:22px"><label for="p" class="label">Platform</label><select id="p" name="clients" style="background:#fff;border:1px solid #D8D2C4;border-radius:12px;padding:15px 16px;font:inherit;font-size:16px;color:var(--ink);width:100%;box-sizing:border-box;min-width:0"><option>Shopify</option><option>WooCommerce</option><option>BigCommerce</option><option>Other</option></select></div>
-    <div style="display:grid;gap:8px;margin-bottom:22px"><label for="q" class="label">What is the problem?</label><select id="q" name="channel" style="background:#fff;border:1px solid #D8D2C4;border-radius:12px;padding:15px 16px;font:inherit;font-size:16px;color:var(--ink);width:100%;box-sizing:border-box;min-width:0"><option>Technical: Google can't read the store</option><option>Content: articles don't bring buyers</option><option>On-page: product pages don't rank</option><option>Links: too few trusted links</option><option>AI search: not named in AI answers</option><option>Not sure yet</option></select></div>
-    <div style="display:grid;gap:8px;margin-bottom:22px"><label for="m" class="label">What's happening?</label><textarea id="m" name="message" rows="4" placeholder="A sentence or two is plenty." style="background:#fff;border:1px solid #D8D2C4;border-radius:12px;padding:15px 16px;font:inherit;font-size:16px;color:var(--ink);width:100%;box-sizing:border-box;min-width:0"></textarea></div>
-    <button type="submit" class="btn btn-red" style="width:100%;justify-content:center;border:0;cursor:pointer;font-family:var(--ff-b)">Request my strategy call →</button>
-    <p class="label" style="margin:18px 0 0;text-align:center">We reply within one working day</p>
-  </form>
-</div></section>
+    <p class="label" style="margin:0 0 28px"><span class="red">&#9679;</span>&nbsp; Contact</p>
+    <h1 class="disp hero-h" style="font-size:clamp(44px,6vw,84px);margin:0 0 30px">Let's talk about your store.</h1>
+    <p class="p" style="font-size:20px;max-width:520px;margin:0 0 56px">A free 30-minute call. We look at where your store stands, then send you a written plan. Price comes after you've seen the plan.</p>
 
+    <div style="display:grid;gap:0">
+      <div style="display:grid;grid-template-columns:70px 1fr;gap:20px;padding:28px 0;border-top:1px solid var(--line)">
+        <p class="label red" style="margin:0">01</p>
+        <div><h3 class="disp" style="font-size:26px;margin:0 0 8px">The call</h3><p class="p" style="font-size:16px">Thirty minutes about your store, your goals and what isn't working.</p></div>
+      </div>
+      <div style="display:grid;grid-template-columns:70px 1fr;gap:20px;padding:28px 0;border-top:1px solid var(--line)">
+        <p class="label red" style="margin:0">02</p>
+        <div><h3 class="disp" style="font-size:26px;margin:0 0 8px">The analysis</h3><p class="p" style="font-size:16px">A written review of what's working and what isn't, sent within a week.</p></div>
+      </div>
+      <div style="display:grid;grid-template-columns:70px 1fr;gap:20px;padding:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+        <p class="label red" style="margin:0">03</p>
+        <div><h3 class="disp" style="font-size:26px;margin:0 0 8px">The plan and price</h3><p class="p" style="font-size:16px">A proposed plan and a fixed price, agreed with you before any work starts.</p></div>
+      </div>
+    </div>
+
+    <p class="p" style="font-size:16px;margin:40px 0 0">Prefer email? Write to <a href="mailto:abhijeet@funnele.com" class="red" style="text-decoration:underline">abhijeet@funnele.com</a>.</p>
+  </div>
+
+  <form method="post" action="/contact" style="background:#FFFFFF;border:1px solid var(--line);border-radius:26px;padding:44px">
+    <div style="position:absolute;left:-9999px" aria-hidden="true"><label>Leave this empty<input type="text" name="company" tabindex="-1" autocomplete="off"></label></div>
+
+    <p class="disp" style="font-size:30px;margin:0 0 28px">Tell us about your store</p>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+      <label style="display:grid;gap:8px;font-size:15px;color:var(--ink2)">Your name
+        <input type="text" name="name" required placeholder="Full name" style="border:1px solid #D8D2C4;border-radius:12px;padding:14px 16px;font:inherit;font-size:16px;color:var(--ink);background:#FFFFFF;width:100%;box-sizing:border-box">
+      </label>
+      <label style="display:grid;gap:8px;font-size:15px;color:var(--ink2)">Work email
+        <input type="email" name="email" required placeholder="you@yourstore.com" style="border:1px solid #D8D2C4;border-radius:12px;padding:14px 16px;font:inherit;font-size:16px;color:var(--ink);background:#FFFFFF;width:100%;box-sizing:border-box">
+      </label>
+      <label style="display:grid;gap:8px;font-size:15px;color:var(--ink2)">Store name
+        <input type="text" name="agency" required placeholder="Your store name" style="border:1px solid #D8D2C4;border-radius:12px;padding:14px 16px;font:inherit;font-size:16px;color:var(--ink);background:#FFFFFF;width:100%;box-sizing:border-box">
+      </label>
+      <label style="display:grid;gap:8px;font-size:15px;color:var(--ink2)">Store website
+        <input type="url" name="website" placeholder="https://" style="border:1px solid #D8D2C4;border-radius:12px;padding:14px 16px;font:inherit;font-size:16px;color:var(--ink);background:#FFFFFF;width:100%;box-sizing:border-box">
+      </label>
+      <label style="display:grid;gap:8px;font-size:15px;color:var(--ink2)">Platform
+        <select name="clients" style="border:1px solid #D8D2C4;border-radius:12px;padding:14px 16px;font:inherit;font-size:16px;color:var(--ink);background:#FFFFFF;width:100%;box-sizing:border-box">
+          <option>Shopify</option>
+          <option>BigCommerce</option>
+          <option>WooCommerce</option>
+          <option>Magento</option>
+          <option>WordPress</option>
+          <option>Other or not sure</option>
+        </select>
+      </label>
+      <label style="display:grid;gap:8px;font-size:15px;color:var(--ink2)">What do you need help with?
+        <select name="channel" style="border:1px solid #D8D2C4;border-radius:12px;padding:14px 16px;font:inherit;font-size:16px;color:var(--ink);background:#FFFFFF;width:100%;box-sizing:border-box">
+          <optgroup label="Search">
+            <option>SEO: technical problems</option>
+            <option>SEO: content</option>
+            <option>SEO: product pages</option>
+            <option>SEO: links</option>
+            <option>AEO and GEO (AI search)</option>
+          </optgroup>
+          <optgroup label="Website">
+            <option>Web: design</option>
+            <option>Web: development</option>
+            <option>Web: conversion</option>
+            <option>Web: speed</option>
+            <option>Web: upkeep</option>
+          </optgroup>
+          <option>Not sure yet</option>
+        </select>
+      </label>
+    </div>
+
+    <label style="display:grid;gap:8px;font-size:15px;color:var(--ink2);margin:16px 0 0">Anything else we should know? <span style="color:var(--mute)">(optional)</span>
+      <textarea name="message" rows="4" placeholder="A sentence or two is plenty." style="border:1px solid #D8D2C4;border-radius:12px;padding:14px 16px;font:inherit;font-size:16px;color:var(--ink);background:#FFFFFF;width:100%;box-sizing:border-box;resize:vertical"></textarea>
+    </label>
+
+    <button type="submit" class="btn btn-red" style="width:100%;justify-content:center;border:0;cursor:pointer;margin-top:26px">Request my free call &rarr;</button>
+    <p class="p" style="font-size:14px;color:var(--mute);text-align:center;margin:16px 0 0">We reply within one working day. We don't share your details.</p>
+  </form>
+
+</div></section>
 </main>
 <%- include('../partials/site-footer') %>
