@@ -98,3 +98,11 @@ main > section:first-child{background-image:radial-gradient(circle at 15% 25%,rg
 
 .navsvc{position:relative;display:inline-flex;align-items:center;gap:6px}
 .navdd-caret summary{padding:4px 2px;font-size:12px;color:var(--ink2)}
+
+/* Audit fixes */
+.btn-red{background:#C22A1D}
+:root{--mute:#5C5A53}
+@media (max-width:520px){.hdr-cta{display:none!important}}
+@media (max-width:1024px){main > section:first-child .split{grid-template-columns:1fr!important}main > section:first-child .split > div:last-child{justify-self:stretch!important;max-width:none!important}}
+@media (max-width:640px){.outline{display:none!important}main > section:first-child::before{width:420px!important;height:420px!important;opacity:.25!important}}
+@media (prefers-reduced-motion: reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1!important;transform:none!important}}

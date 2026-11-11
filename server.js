@@ -25,6 +25,7 @@ app.use((req, res, next) => {
   res.locals.currentPath = req.path;
   res.locals.logoDataUri = logoDataUri;
   res.locals.assetVersion = assetVersion;
+  res.locals.siteUrl = (process.env.SITE_URL || 'https://funnele.com').replace(/\/$/, '');
   next();
 });
 

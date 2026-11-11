@@ -3,7 +3,7 @@ title: "From invisible to page one: an SEO turnaround for an industrial cleaning
 category: "Industrial / Automotive Ecommerce / SEO"
 type: "case-study"
 date: "2026-07-03"
-excerpt: "A six-month SEO engagement took a professional-grade cleaning products retailer from under 2,000 monthly organic visits to over 7,000, and organic revenue from $4.5K to $25K+ — all delivered under the partner agency's name."
+excerpt: "A six-month SEO engagement took a professional-grade cleaning products retailer from under 2,000 monthly organic visits to over 7,000, and organic revenue from $4.5K to $25K+ — with a clear plan and monthly reporting."
 cover: "/images/case-studies/cleaning-seo/cover.svg"
 ---
 
@@ -13,7 +13,7 @@ cover: "/images/case-studies/cleaning-seo/cover.svg"
 
 The client is an online supplier of professional-grade cleaning and detailing products for trucking, automotive, and marine industries — soaps, degreasers, foam cannons, and restoration products built for heavy-duty performance. The product lineup was strong and the niche was clear. The problem was that almost none of it showed up in search.
 
-Buyers searching for truck cleaning products, heavy-duty acid cleaners, or foam cannons had no reliable way of finding the site. Before this engagement, most of the retailer's priority keywords weren't ranking in the first 100 results at all. Its partner agency needed a search team who could fix that quietly, under its own name, with the retailer never needing to know a second agency was involved.
+Buyers searching for truck cleaning products, heavy-duty acid cleaners, or foam cannons had no reliable way of finding the site. Before this engagement, most of the retailer's priority keywords weren't ranking in the first 100 results at all. The retailer needed a search team who could fix that with a clear plan and regular reporting.
 
 ## The challenge
 
@@ -49,8 +49,8 @@ Organic traffic grew from roughly 2,000 to over 7,000 monthly visits — a 250% 
 
 The number that mattered most to the client's bottom line: organic revenue grew from $4.5K to over $25K per month — a 400% increase — as better rankings converted into buyers who were actually ready to purchase, not just browse.
 
-## What this proves for a white-label partner
+## What this proves for a store like this
 
-This engagement started from a genuinely difficult position: a site with almost no search visibility, no content engine, and category pages that didn't exist yet. Building category-specific landing pages, fixing the technical foundation, and pairing that with a deliberate content and link-building push turned that into 6x organic revenue growth in a single two-quarter window — without the retailer ever needing to know a second agency was behind the work.
+This engagement started from a genuinely difficult position: a site with almost no search visibility, no content engine, and category pages that didn't exist yet. Building category-specific landing pages, fixing the technical foundation, and pairing that with a deliberate content and link-building push turned that into 6x organic revenue growth in a single two-quarter window — with a clear plan and regular reporting throughout.
 
-For a partner agency, that's the pitch in practice: hand off the SEO account, keep the client relationship, and let results like these carry your name.
+For a store owner, that's the point: a plan you can follow, reporting you can check, and results measured against revenue.
