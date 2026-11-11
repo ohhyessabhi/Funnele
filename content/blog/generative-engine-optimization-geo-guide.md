@@ -180,3 +180,22 @@ GEO success is measured through AI visibility indicators such as brand mentions 
 ### What are the biggest risks or pitfalls in GEO?
 
 The biggest risks include applying outdated SEO tactics, creating shallow content, and ignoring authority-building signals. Over-optimization, lack of structure, and chasing quick wins all reduce AI trust. GEO requires patience, quality, and long-term strategic execution.
+
+
+## Frequently asked questions
+
+### What is generative engine optimization?
+
+Generative engine optimization, or GEO, is the work of making a store's pages clear, specific and trustworthy enough that AI answer tools mention or cite them. It builds on SEO rather than replacing it.
+
+### Can a store guarantee it will appear in AI answers?
+
+No. AI tools change how they choose sources, and no partner can control the result. The sensible goal is to become the clearest and most credible source for the questions your buyers ask.
+
+### How do I measure GEO results?
+
+Ask a fixed set of buyer questions to several AI tools each month, and record whether your store is mentioned and which sources are cited. Track the same questions over time to see the trend.
+
+### Does GEO change how I write product pages?
+
+It reinforces good practice: state key product facts plainly, keep details consistent across pages, and answer the questions buyers ask in the first few lines.

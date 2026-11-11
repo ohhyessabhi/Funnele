@@ -77,3 +77,22 @@ Another common mistake is fixing the homepage and leaving the product pages unto
 Choose your five most visited product pages. Test each on a phone, fix the largest images and remove any apps you don't use. Measure the speed and the add-to-cart rate for a month, and use those results to decide the next step. If the results improve, extend the same work to the rest of the catalog, and then to the collection pages and the checkout.
 
 If you want a clear picture of where your store loses time, our analysis includes a speed review of your key templates, and it ends with a written list of fixes in the order they will help most. You'll know what the work involves before you decide anything about price.
+
+
+## Frequently asked questions
+
+### What is a good speed for an ecommerce page on a phone?
+
+There is no single number that suits every store. Focus on whether the main product image and buying button appear quickly and whether the page responds to taps without delay. Compare your results with your own baseline over time.
+
+### Which speed tool should I use?
+
+Start with Google's PageSpeed Insights, which shows both lab and real-world data. Use the real-world data to find the pages shoppers actually struggle with, and the lab results to diagnose causes.
+
+### Will speed improvements change my rankings?
+
+Speed is one of many signals, so it rarely changes rankings on its own. It does affect whether shoppers stay and buy, which is often the bigger gain.
+
+### How often should I check speed?
+
+Check your key pages monthly, and check any time you install an app or change the theme. Speed slips gradually, and small additions add up.

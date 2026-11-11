@@ -95,3 +95,22 @@ Before a product template goes live, check each of these points on a phone and o
 Choose your three best-selling products, look at each on a phone and ask whether the main image, price, options and buying button are clear within the first screen. Fix those first, then measure the result over a month. Compare add-to-cart rates and sales before and after, and record what you changed. Those three pages will teach you more about your shoppers than a long list of design opinions.
 
 If you'd like a second opinion, we review product page design as part of our Shopify work, and we can set up a simple test to show you which changes improve results for your store. We start with the pages that sell the most, because that's where the gains are largest.
+
+
+## Frequently asked questions
+
+### What matters most on a Shopify product page?
+
+The main image, product name, price and buying button should be visible in the first screen on a phone. If a shopper can't tell what the product is and what it costs quickly, they'll often leave before reading further.
+
+### How many images should a product have?
+
+Enough to answer the shopper's questions: the product from a few angles, close-ups of important details and at least one photo in use. Quality matters more than the count, and every image should load quickly.
+
+### Do apps slow down a product page?
+
+They can. Each app adds scripts, and some load on every page whether they're used or not. Remove the apps you don't need and check the page speed on a phone after installing any new one.
+
+### How do I test a design change?
+
+Change one element, run the test for a fixed period, and measure add-to-cart rate and sales against the previous version. Keep a record of each test so the team learns from every result.

@@ -98,3 +98,22 @@ Compare two or three agencies using the same questions, and use the written answ
 ## Where to start with us
 
 Book a free call and we'll review your store. We come back with a written plan before we talk about price, so you can use the questions above and check our answers against the plan. Ask us the same questions you'd ask anyone else, and expect straight answers.
+
+
+## Frequently asked questions
+
+### How much should an ecommerce SEO agency cost?
+
+Prices vary with the size of the catalog, the platform and the amount of work. The right question is not the lowest price but what the fee includes, who does the work and what you receive each month.
+
+### How long should I commit to an SEO agency?
+
+Six months is a reasonable minimum for most stores, because the first fixes take time to show. Avoid long contracts before you have seen a sample report and a written plan.
+
+### Should I hire a specialist for Shopify or WooCommerce?
+
+Platform experience matters. A partner who knows how your store's theme, apps and redirects behave will avoid costly mistakes and move faster.
+
+### What should I do if my current agency will not explain its work?
+
+Ask for a written list of the last three months of changes, with the reason for each. If the answer is still vague, it's a sign the reporting needs to change, or the relationship does.

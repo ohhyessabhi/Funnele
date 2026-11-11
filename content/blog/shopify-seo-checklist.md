@@ -94,3 +94,22 @@ Another mistake is treating the checklist as finished once it's done. Stores cha
 Pick your top ten products and top five collections. Work through steps two, three and five on those pages first, then measure visits and sales for a month. The results show you whether the work is worth extending to the rest of the store. If the bestsellers improve, move on to the next tier of products and the remaining collections, using the same steps.
 
 If you'd rather have someone check the store for you, we start every engagement with an analysis that covers these ten points and more. It ends with a written plan in order of impact, so you can see what to fix first before you decide anything else.
+
+
+## Frequently asked questions
+
+### Do I need a developer to work through this checklist?
+
+Many items can be handled in the Shopify admin, such as titles, descriptions and collection text. Redirects, canonical settings and robots rules may need a developer, especially on a heavily customized theme.
+
+### How often should I run the checklist?
+
+Run it quarterly, and again whenever you add a large collection, install a new app or change your theme. Stores change constantly, and new problems tend to appear after those changes.
+
+### Which fix should I do first?
+
+Start with indexing and product titles on your bestsellers. They're quick to check and they affect the pages that earn the most visits and sales.
+
+### Does Shopify handle SEO automatically?
+
+Shopify provides a solid base, but it doesn't write good titles, unique descriptions or useful collection text for you. Those are the parts that most stores still need to do themselves.

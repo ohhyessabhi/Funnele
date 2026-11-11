@@ -94,3 +94,22 @@ For each product page, work through these steps in order:
 ## Where to start
 
 Pick your ten best-selling products and check how each one appears in search. Rewrite the titles and opening copy first, since they have the most effect on both clicks and understanding. Then measure visits and sales for the product over the next few weeks, before moving on. That shows you which changes matter for your store.
+
+
+## Frequently asked questions
+
+### How long should a product title be?
+
+Aim for under about 60 characters so the title isn't cut off in search results. Put the product name and its main use first, and include the main search term once.
+
+### Should every product have a unique description?
+
+Yes, where you can. Duplicate descriptions make similar products compete with each other and give search engines little reason to prefer one page. Start with your bestsellers.
+
+### Does the product description affect rankings?
+
+The description itself doesn't directly move rankings, but it strongly affects clicks. A clear description that matches the search can bring more visitors to the same page.
+
+### How many reviews does a product page need?
+
+There is no fixed number. What matters is that the reviews are real, recent and specific, and that the page shows them clearly. A realistic mix of ratings usually builds more trust than a page of perfect scores.

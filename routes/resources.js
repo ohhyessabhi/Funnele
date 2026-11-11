@@ -5,8 +5,7 @@ const { getAllContent, getBySlug } = require('../lib/content');
 const BASE = (process.env.SITE_URL || 'https://funnele.com').replace(/\/$/, '');
 function articleLd(item) {
   const url = `${BASE}/${item.type === 'blog' ? 'blog' : 'case-studies'}/${item.slug}`;
-  return JSON.stringify({
-    '@context': 'https://schema.org',
+  const graph = [{
     '@type': 'Article',
     headline: item.title,
     description: item.excerpt || item.title,
@@ -14,7 +13,18 @@ function articleLd(item) {
     mainEntityOfPage: url,
     author: { '@type': 'Organization', name: 'Funnele', url: BASE },
     publisher: { '@type': 'Organization', name: 'Funnele', url: BASE }
-  }).replace(/</g, '\\u003c');
+  }];
+  if (item.faq && item.faq.length) {
+    graph.push({
+      '@type': 'FAQPage',
+      mainEntity: item.faq.map((f) => ({
+        '@type': 'Question',
+        name: f.q.replace(/^\d+\.\s*/, ''),
+        acceptedAnswer: { '@type': 'Answer', text: f.a }
+      }))
+    });
+  }
+  return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c');
 }
 
 

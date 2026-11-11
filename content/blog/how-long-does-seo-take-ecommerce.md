@@ -88,3 +88,22 @@ The pattern is not a promise. Some stores move faster, and some take longer, usu
 The first step is an honest look at the store. That covers the catalog, the margins, the searches buyers actually make, and the technical state of the site. From there, you should get a written order of work and a rough timeline before anything is changed on the live site.
 
 If you want a specific answer for your store, that's what a store analysis is for. We'll look at your products, your traffic and your competition, and give you a plan with a realistic timeline before we talk about price.
+
+
+## Frequently asked questions
+
+### How long before an ecommerce store sees more sales from search?
+
+Most stores see the first visible movement in six to twelve weeks and meaningful revenue from search in three to six months. The timing depends on how many technical problems the store has and how competitive its category is.
+
+### Can I speed up SEO by paying for it?
+
+Paid ads can bring visitors quickly, but they don't build the organic results that keep working after you stop paying. Buying links or other shortcuts usually creates risk and can set progress back. The faster route is fixing the store's foundations first.
+
+### What should my agency show me in the first month?
+
+A specific list of what they checked, what they changed and what they expect to move, with the reasons. If the first month is only keyword reports with no explanation, ask for a clearer plan.
+
+### Is SEO worth it for a small store?
+
+It can be, especially for stores with products that buyers search for by name or by problem. A smaller catalog often makes the early fixes quicker, and the work builds a base that keeps paying off.

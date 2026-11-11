@@ -99,3 +99,22 @@ Run the same test on the last three recommendations. A strong audit passes it ev
 Our store analysis covers these eight areas and ends with a written plan. The plan is ordered by expected impact, and it names the pages, the fixes and the measures for each step. We review the store before we discuss price, so you know what the work involves before you decide anything.
 
 If you already have an audit, we're happy to review it against the checks above and tell you which recommendations are worth acting on first. You don't have to be a client to ask.
+
+
+## Frequently asked questions
+
+### How long should an ecommerce SEO audit take?
+
+A focused audit of a typical store takes one to three weeks, depending on catalog size and access to data. A very large catalog may need a sample of templates rather than every page.
+
+### What data do I need to give an auditor?
+
+Access to Search Console and analytics is the most important. Sales data by product or collection is also useful, because it connects each recommendation to revenue.
+
+### Is a free audit worth having?
+
+A free tool report can show basic issues, but it rarely shows what matters most for your store. Use it as a starting point, and ask whether the findings are ranked by impact before you act on them.
+
+### How do I know the fixes worked?
+
+Set a baseline before any change, then compare visits and sales for the affected pages over the following weeks. Record the change, the date and the result, so you can judge each fix on its own.

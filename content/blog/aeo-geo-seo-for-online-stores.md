@@ -79,3 +79,22 @@ We can't promise a placement in an AI answer, and nobody honest can. We can make
 Avoid anyone who sells AEO or GEO as a guaranteed result, or as a separate product that replaces basic SEO. Avoid tricks that try to force an AI tool to repeat your claims, such as hidden text or artificial reviews. Those approaches tend to fail, and they can damage a store's reputation with both search engines and buyers.
 
 The sensible approach is the same one that works for good SEO: be clear, be specific, be consistent and be trusted. That's a practical plan, and it's one you can measure.
+
+
+## Frequently asked questions
+
+### Do I need a separate strategy for AEO and GEO?
+
+Usually not. Most of the work that helps a page rank also helps it be used as an answer or cited by AI tools. Treat AEO and GEO as part of the SEO plan, and measure them alongside rankings and revenue.
+
+### Can I guarantee my store will appear in AI answers?
+
+No honest partner can. AI tools change how they choose sources, and no one controls the result. You can make the store clearer, more specific and more trusted, which improves the odds over time.
+
+### What is the quickest thing I can do this week?
+
+Pick ten important product or category pages and check that the key facts are stated clearly near the top. Then ask two AI tools the questions your buyers ask, and record which stores and sources they mention.
+
+### Is AEO a replacement for SEO?
+
+No. AEO and GEO depend on the same foundations: pages that can be found, read and trusted. A store without solid SEO will struggle to appear in direct answers or AI citations.
