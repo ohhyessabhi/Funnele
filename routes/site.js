@@ -1,9 +1,71 @@
 const express = require('express');
+const fs = require('fs');
+const path = require('path');
 const meta = require('../lib/site-meta.json');
 const { getAllContent } = require('../lib/content');
 
 const router = express.Router();
 const BASE = (process.env.SITE_URL || 'https://funnele.com').replace(/\/$/, '');
+const VIEWS = path.join(__dirname, '..', 'views');
+
+function decode(s) {
+  return s
+    .replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;|&rsquo;|&#8217;/g, "'")
+    .replace(/\s+/g, ' ').trim();
+}
+
+// Read the FAQ questions and answers from a page template
+function faqsFor(view) {
+  const file = path.join(VIEWS, view + '.ejs');
+  if (!fs.existsSync(file)) return [];
+  const html = fs.readFileSync(file, 'utf8');
+  const out = [];
+  const re = /<details[^>]*>\s*<summary[^>]*>(.*?)<\/summary>\s*<p[^>]*>(.*?)<\/p>/gs;
+  let m;
+  while ((m = re.exec(html))) out.push({ q: decode(m[1]), a: decode(m[2]) });
+  return out;
+}
+
+function breadcrumbs(routePath, lastName) {
+  const parts = routePath.split('/').filter(Boolean);
+  const items = [{ name: 'Home', url: BASE + '/' }];
+  let acc = '';
+  parts.forEach((p, i) => {
+    acc += '/' + p;
+    const isLast = i === parts.length - 1;
+    items.push({ name: isLast && lastName ? lastName : p.replace(/-/g, ' '), url: BASE + acc });
+  });
+  return {
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.name, item: it.url }))
+  };
+}
+
+function jsonldFor(key, routePath, m) {
+  const graph = [];
+  const name = m.title.split('|')[0].trim();
+  const isService = key !== 'home' && /^(seo|web-|problem-|services|problems)/.test(key);
+  if (isService) {
+    graph.push({
+      '@type': 'Service',
+      name,
+      description: m.description,
+      url: BASE + routePath,
+      provider: { '@type': 'Organization', name: 'Funnele', url: BASE }
+    });
+  }
+  const faqs = faqsFor(key === 'home' ? 'pages/home' : 'pages/' + key);
+  if (faqs.length) {
+    graph.push({
+      '@type': 'FAQPage',
+      mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+    });
+  }
+  if (routePath !== '/') graph.push(breadcrumbs(routePath, name));
+  return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c');
+}
 
 function renderPage(view, key) {
   return (req, res) => {
@@ -13,6 +75,8 @@ function renderPage(view, key) {
       description: m.description,
       keywords: m.keywords,
       canonical: BASE + m.path,
+      ogImage: `/images/og/${key}.png`,
+      jsonld: jsonldFor(key, m.path, m),
       extraCss: key === 'home' ? '/css/home.css' : null
     });
   };
@@ -43,7 +107,6 @@ PAGE_ROUTES.forEach(([route, view, key]) => router.get(route, renderPage(view, k
 
 // Old URLs go to their new homes, so existing links and search results still land somewhere useful.
 const REDIRECTS = [
-  ['/problems', '/services'],
   ['/problems', '/services'],
   ['/services/seo', '/seo'],
   ['/services/meta-ads', '/seo'],

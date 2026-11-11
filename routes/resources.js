@@ -3,6 +3,20 @@ const router = express.Router();
 const { getAllContent, getBySlug } = require('../lib/content');
 
 const BASE = (process.env.SITE_URL || 'https://funnele.com').replace(/\/$/, '');
+function articleLd(item) {
+  const url = `${BASE}/${item.type === 'blog' ? 'blog' : 'case-studies'}/${item.slug}`;
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: item.title,
+    description: item.excerpt || item.title,
+    datePublished: item.date ? new Date(item.date).toISOString() : undefined,
+    mainEntityOfPage: url,
+    author: { '@type': 'Organization', name: 'Funnele', url: BASE },
+    publisher: { '@type': 'Organization', name: 'Funnele', url: BASE }
+  }).replace(/</g, '\\u003c');
+}
+
 
 router.get('/blog', (req, res) => {
   const items = getAllContent().filter((item) => item.type === 'blog');
@@ -23,6 +37,8 @@ router.get('/blog/:slug', (req, res, next) => {
     title: `${item.title} | Funnele`,
     description: item.excerpt || item.title,
     keywords: '',
+    ogImage: '/images/og/default.png',
+    jsonld: articleLd(item),
     canonical: `${BASE}/blog/${item.slug}`,
     extraCss: null,
     item
@@ -36,6 +52,8 @@ router.get('/case-studies/:slug', (req, res, next) => {
     title: `${item.title} | Funnele`,
     description: item.excerpt || item.title,
     keywords: '',
+    ogImage: '/images/og/default.png',
+    jsonld: articleLd(item),
     canonical: `${BASE}/case-studies/${item.slug}`,
     extraCss: null,
     item

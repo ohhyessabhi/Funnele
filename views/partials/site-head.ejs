@@ -12,6 +12,8 @@
 <meta property="og:description" content="<%= description %>">
 <meta property="og:url" content="<%= canonical %>">
 <meta name="twitter:card" content="summary_large_image">
+<% if (typeof ogImage !== 'undefined' && ogImage) { %><meta property="og:image" content="<%= siteUrl %><%= ogImage %>"><meta name="twitter:image" content="<%= siteUrl %><%= ogImage %>"><% } %>
+<% if (typeof jsonld !== 'undefined' && jsonld) { %><script type="application/ld+json"><%- jsonld %></script><% } %>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Funnele","url":"<%= siteUrl %>","logo":"<%= siteUrl %>/images/favicon.png","description":"SEO, AEO and GEO for online stores, and web design and development on Shopify, BigCommerce, WooCommerce, Magento and WordPress."}</script>
 <link rel="icon" href="/images/favicon.png?v=2" type="image/png">
 <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
