@@ -7,8 +7,6 @@
   <% if (item.date) { %><p class="label"><%= new Date(item.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) %></p><% } %>
 </div></section>
 
-<% if (item.cover) { %><section style="padding:0 0 10px"><div class="narrow"><img src="<%= item.cover %>" alt="<%= item.title %>" width="1200" height="630" style="display:block;width:100%;height:auto;border-radius:20px"></div></section><% } %>
-
 <style>.prose img{display:block;width:100%;height:auto;margin:44px 0;border-radius:18px;border:1px solid var(--line)}.toc{border:1px solid var(--line);border-radius:20px;padding:28px 32px;margin:0 0 56px;background:var(--card)}.toc ol{margin:14px 0 0;padding-left:22px;font-size:17px;line-height:1.6}.toc li{margin:0 0 8px}.toc a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}.toc a:hover{color:var(--red)}</style>
 <section style="padding:20px 0 120px"><div class="narrow prose">
 <% if (item.toc && item.toc.length > 1) { %>
