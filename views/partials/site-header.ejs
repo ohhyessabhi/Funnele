@@ -3,7 +3,7 @@
     <a href="/"><img src="<%= logoDataUri %>" alt="Funnele" style="height:20px;display:block"></a>
     <nav class="nav-links" style="display:flex;gap:30px;align-items:center;font-size:15px;color:var(--ink2)">
       <a href="/" class="<%= currentPath === '/' ? 'navon' : '' %>">Home</a>
-      <a href="/services">Services</a>
+      <span class="navsvc"><a href="/services">Services</a><details class="navdd navdd-caret"><summary aria-label="Open services menu">&#9662;</summary><div class="navpanel"><a href="/seo">SEO for ecommerce</a><a href="/web-development">Web development</a></div></details></span>
       <a href="/about">Why Funnele</a>
       <details class="navdd">
         <summary>Resources <span aria-hidden="true">&#9662;</span></summary>
