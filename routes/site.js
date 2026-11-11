@@ -22,7 +22,7 @@ const PAGE_ROUTES = [
   ['/', 'pages/home', 'home'],
   ['/seo', 'pages/seo', 'seo'],
   ['/seo/reporting', 'pages/seo-reporting', 'seo-reporting'],
-  ['/problems', 'pages/problems', 'problems'],
+  ['/services', 'pages/services', 'services'],
   ['/problems/technical', 'pages/problem-technical', 'problem-technical'],
   ['/problems/content', 'pages/problem-content', 'problem-content'],
   ['/problems/on-page', 'pages/problem-on-page', 'problem-on-page'],
@@ -43,7 +43,8 @@ PAGE_ROUTES.forEach(([route, view, key]) => router.get(route, renderPage(view, k
 
 // Old URLs go to their new homes, so existing links and search results still land somewhere useful.
 const REDIRECTS = [
-  ['/services', '/seo'],
+  ['/problems', '/services'],
+  ['/problems', '/services'],
   ['/services/seo', '/seo'],
   ['/services/meta-ads', '/seo'],
   ['/services/google-ads', '/seo'],

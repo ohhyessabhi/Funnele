@@ -118,5 +118,11 @@
     "description": "Ecommerce and Shopify website maintenance: updates, security, backups and one shared queue for changes.",
     "keywords": "ecommerce website maintenance, shopify website maintenance, website maintenance",
     "path": "/web-development/upkeep"
+  },
+  "services": {
+    "title": "Ecommerce SEO and web development services | Funnele",
+    "description": "SEO for ecommerce and web development on Shopify, BigCommerce, WooCommerce, Magento and WordPress. Start with the problem, then a plan, then a price.",
+    "keywords": "ecommerce seo services, ecommerce web development company, seo and web development for ecommerce",
+    "path": "/services"
   }
 }

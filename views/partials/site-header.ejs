@@ -3,14 +3,7 @@
     <a href="/"><img src="<%= logoDataUri %>" alt="Funnele" style="height:20px;display:block"></a>
     <nav class="nav-links" style="display:flex;gap:30px;align-items:center;font-size:15px;color:var(--ink2)">
       <a href="/" class="<%= currentPath === '/' ? 'navon' : '' %>">Home</a>
-      <details class="navdd">
-        <summary>Services <span aria-hidden="true">&#9662;</span></summary>
-        <div class="navpanel">
-          <a href="/seo">SEO for ecommerce</a>
-          <a href="/web-development">Web development</a>
-          <a href="/problems">Start with a problem</a>
-        </div>
-      </details>
+      <a href="/services">Services</a>
       <a href="/about">Why Funnele</a>
       <details class="navdd">
         <summary>Resources <span aria-hidden="true">&#9662;</span></summary>
@@ -27,9 +20,9 @@
         <summary aria-label="Open menu">Menu</summary>
         <div class="mpanel">
           <a href="/">Home</a>
+          <a href="/services">Services</a>
           <a href="/seo">SEO for ecommerce</a>
           <a href="/web-development">Web development</a>
-          <a href="/problems">Start with a problem</a>
           <a href="/about">Why Funnele</a>
           <a href="/blog">Journal</a>
           <a href="/case-studies">Case studies</a>
