@@ -1,4 +1,4 @@
-:root{--paper:#F6F3EC;--card:#FFFFFF;--ink:#121212;--ink2:#3C3B37;--mute:#77746C;--line:#E3DED2;--red:#E43525;--ff-d:'Bricolage Grotesque',system-ui,sans-serif;--ff-b:'Geist',system-ui,sans-serif;--ff-m:'Geist Mono',ui-monospace,monospace}
+:root{--paper:#F6F3EC;--card:#FFFFFF;--ink:#121212;--ink2:#3C3B37;--mute:#77746C;--line:#E3DED2;--red:#E43525;--ff-d:'Bricolage Grotesque',system-ui,sans-serif;--ff-b:'Schibsted Grotesk',system-ui,sans-serif;--ff-m:'Geist Mono',ui-monospace,monospace}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--ff-b);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:1240px;margin:0 auto;padding:0 40px;box-sizing:border-box}
@@ -83,3 +83,11 @@ main > section:first-child{background-image:radial-gradient(circle at 15% 25%,rg
 .prose a{color:var(--red);text-decoration:underline}
 .prose img{max-width:100%;height:auto;border-radius:18px;margin:30px 0}
 .prose strong{color:var(--ink)}
+
+.navdd{position:relative}
+.navdd summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.navdd summary::-webkit-details-marker{display:none}
+.navpanel{position:absolute;top:calc(100% + 18px);left:-16px;min-width:240px;background:#FFFFFF;border:1px solid var(--line);border-radius:16px;padding:10px;display:grid;gap:2px;box-shadow:0 24px 40px -24px rgba(18,18,18,.35);z-index:30}
+.navpanel a{padding:12px 14px;border-radius:10px;color:var(--ink);font-size:15px}
+.navpanel a:hover{background:var(--paper)}
+.navon{color:var(--red)}

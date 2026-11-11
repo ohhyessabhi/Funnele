@@ -1,12 +1,40 @@
 <header style="position:sticky;top:0;z-index:10;background:rgba(246,243,236,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)">
   <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;height:74px">
     <a href="/"><img src="<%= logoDataUri %>" alt="Funnele" style="height:20px;display:block"></a>
-    <nav class="nav-links" style="display:flex;gap:34px;font-size:14px;color:var(--ink2)">
-      <a href="/problems">Start with a problem</a><a href="/seo">SEO</a><a href="/case-studies">Results</a><a href="/blog">Journal</a><a href="/about">About</a>
+    <nav class="nav-links" style="display:flex;gap:30px;align-items:center;font-size:15px;color:var(--ink2)">
+      <a href="/" class="<%= currentPath === '/' ? 'navon' : '' %>">Home</a>
+      <details class="navdd">
+        <summary>Services <span aria-hidden="true">&#9662;</span></summary>
+        <div class="navpanel">
+          <a href="/seo">SEO for ecommerce</a>
+          <a href="/problems">Start with a problem</a>
+        </div>
+      </details>
+      <a href="/about">Why Funnele</a>
+      <details class="navdd">
+        <summary>Resources <span aria-hidden="true">&#9662;</span></summary>
+        <div class="navpanel">
+          <a href="/blog">Journal</a>
+          <a href="/case-studies">Case studies</a>
+        </div>
+      </details>
+      <a href="/contact">Contact</a>
     </nav>
     <div style="display:flex;align-items:center;gap:10px">
-    <a href="/contact" class="btn btn-red" style="padding:11px 18px;font-size:14px">Book a call</a>
-    <details class="mnav"><summary aria-label="Open menu">Menu</summary><div class="mpanel"><a href="/problems">Start with a problem</a><a href="/seo">SEO</a><a href="/case-studies">Results</a><a href="/blog">Journal</a><a href="/about">About</a><a href="/contact" style="background:var(--red);color:#fff;text-align:center;margin-top:6px">Book a call</a></div></details>
+      <a href="/contact" class="btn btn-red" style="padding:11px 18px;font-size:14px">Get a free analysis</a>
+      <details class="mnav">
+        <summary aria-label="Open menu">Menu</summary>
+        <div class="mpanel">
+          <a href="/">Home</a>
+          <a href="/seo">SEO for ecommerce</a>
+          <a href="/problems">Start with a problem</a>
+          <a href="/about">Why Funnele</a>
+          <a href="/blog">Journal</a>
+          <a href="/case-studies">Case studies</a>
+          <a href="/contact">Contact</a>
+          <a href="/contact" style="background:var(--red);color:#fff;text-align:center;margin-top:6px">Get a free analysis</a>
+        </div>
+      </details>
     </div>
   </div>
 </header>

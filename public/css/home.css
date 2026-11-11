@@ -1,4 +1,4 @@
-:root{--paper:#F6F3EC;--card:#FFFFFF;--ink:#121212;--ink2:#3C3B37;--mute:#77746C;--line:#E3DED2;--red:#E43525;--red2:#C22A1D;--ff-d:'Bricolage Grotesque',system-ui,sans-serif;--ff-b:'Geist',system-ui,sans-serif;--ff-m:'Geist Mono',ui-monospace,monospace}
+:root{--paper:#F6F3EC;--card:#FFFFFF;--ink:#121212;--ink2:#3C3B37;--mute:#77746C;--line:#E3DED2;--red:#E43525;--red2:#C22A1D;--ff-d:'Bricolage Grotesque',system-ui,sans-serif;--ff-b:'Schibsted Grotesk',system-ui,sans-serif;--ff-m:'Geist Mono',ui-monospace,monospace}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--ff-b);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:1240px;margin:0 auto;padding:0 40px;box-sizing:border-box}
